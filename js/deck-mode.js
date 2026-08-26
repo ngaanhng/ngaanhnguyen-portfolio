@@ -786,7 +786,7 @@ class DeckModeController {
                 <div class="w-10 h-10 rounded-full bg-white text-[#B8005A] flex items-center justify-center font-bold shadow flex-shrink-0">
                   <i data-lucide="map-pin" class="w-5 h-5"></i>
                 </div>
-                <span>Thích Quảng Đức, Phường Đức Nhuận, TP. Hồ Chí Minh</span>
+                <span>TP. Hồ Chí Minh</span>
               </div>
             </div>
           </div>
