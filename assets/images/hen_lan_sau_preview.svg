@@ -1,0 +1,54 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vintageSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbcfe8" />
+      <stop offset="100%" stop-color="#fed7aa" />
+    </linearGradient>
+    <linearGradient id="schoolWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="24" fill="#18181b"/>
+  <g transform="translate(15, 15)">
+    <rect x="0" y="0" width="225" height="225" rx="16" fill="url(#schoolWall)"/>
+    <line x1="40" y1="0" x2="40" y2="225" stroke="#ca8a04" stroke-width="4"/>
+    <line x1="80" y1="0" x2="80" y2="225" stroke="#ca8a04" stroke-width="4"/>
+    <circle cx="130" cy="80" r="28" fill="#1e293b"/>
+    <path d="M100 130 C100 105, 160 105, 160 130 L165 225 L95 225 Z" fill="#ffffff"/>
+    <rect x="140" y="115" width="25" height="65" rx="6" fill="#334155"/>
+    <text x="20" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#854d0e">Hành lang trường</text>
+
+    <g transform="translate(245, 0)">
+      <rect x="0" y="0" width="225" height="225" rx="16" fill="url(#vintageSky)"/>
+      <circle cx="112" cy="75" r="30" fill="#78350f"/>
+      <path d="M85 125 C85 100, 140 100, 140 125 L145 225 L80 225 Z" fill="#ffffff"/>
+      <polygon points="105,120 120,120 112,130" fill="#a855f7"/>
+      <polygon points="105,130 120,130 112,120" fill="#a855f7"/>
+      <text x="20" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#be185d">Ánh nhìn ngập ngừng</text>
+    </g>
+
+    <g transform="translate(0, 245)">
+      <rect x="0" y="0" width="225" height="225" rx="16" fill="#fef3c7"/>
+      <rect x="0" y="160" width="225" height="65" fill="#f87171" opacity="0.6"/>
+      <circle cx="45" cy="150" r="18" fill="#15803d"/>
+      <circle cx="105" cy="150" r="18" fill="#15803d"/>
+      <circle cx="175" cy="150" r="18" fill="#15803d"/>
+      <circle cx="80" cy="70" r="18" fill="#1e293b"/>
+      <rect x="70" y="95" width="20" height="45" fill="#ffffff"/>
+      <rect x="68" y="140" width="10" height="40" fill="#3b82f6"/>
+      <rect x="82" y="140" width="10" height="40" fill="#3b82f6"/>
+      <text x="20" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#78350f">Sân trường ngập nắng</text>
+    </g>
+
+    <g transform="translate(245, 245)">
+      <rect x="0" y="0" width="225" height="225" rx="16" fill="url(#schoolWall)"/>
+      <line x1="0" y1="180" x2="225" y2="180" stroke="#b45309" stroke-width="6"/>
+      <line x1="0" y1="140" x2="225" y2="140" stroke="#b45309" stroke-width="6"/>
+      <line x1="0" y1="100" x2="225" y2="100" stroke="#b45309" stroke-width="6"/>
+      <circle cx="70" cy="70" r="16" fill="#1e293b"/>
+      <circle cx="150" cy="65" r="16" fill="#78350f"/>
+      <text x="20" y="210" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11" fill="#854d0e">Lời hẹn dang dở</text>
+    </g>
+  </g>
+</svg>

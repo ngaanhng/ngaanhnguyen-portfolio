@@ -1,0 +1,46 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="miloBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" rx="24" fill="#0f172a"/>
+  <g transform="translate(15, 15)">
+    <rect x="0" y="0" width="225" height="225" rx="16" fill="url(#miloBg)"/>
+    <rect x="65" y="40" width="95" height="145" rx="8" fill="#047857" stroke="#fbbf24" stroke-width="2"/>
+    <rect x="75" y="50" width="75" height="24" rx="4" fill="#fbbf24"/>
+    <text x="112" y="67" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="14" fill="#78350f" text-anchor="middle">MILO</text>
+    <rect x="75" y="80" width="75" height="14" rx="3" fill="#ef4444"/>
+    <text x="112" y="91" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="8" fill="#ffffff" text-anchor="middle">2X PROTEIN</text>
+    <circle cx="112" cy="125" r="20" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+    <text x="112" y="129" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="9" fill="#ffffff" text-anchor="middle">ACTIV-GO</text>
+
+    <g transform="translate(245, 0)">
+      <rect x="0" y="0" width="225" height="225" rx="16" fill="url(#miloBg)"/>
+      <rect x="65" y="35" width="95" height="155" rx="8" fill="#047857" stroke="#34d399" stroke-width="2"/>
+      <rect x="75" y="45" width="75" height="24" rx="4" fill="#fbbf24"/>
+      <text x="112" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="14" fill="#78350f" text-anchor="middle">MILO</text>
+      <text x="112" y="125" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="10" fill="#ffffff" text-anchor="middle">NĂNG LƯỢNG</text>
+      <text x="112" y="142" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="10" fill="#fbbf24" text-anchor="middle">BỀN BỈ</text>
+    </g>
+
+    <g transform="translate(0, 245)">
+      <rect x="0" y="0" width="225" height="225" rx="16" fill="url(#miloBg)"/>
+      <rect x="65" y="40" width="95" height="145" rx="8" fill="#047857" stroke="#fbbf24" stroke-width="2"/>
+      <rect x="75" y="50" width="75" height="24" rx="4" fill="#fbbf24"/>
+      <text x="112" y="67" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="14" fill="#78350f" text-anchor="middle">MILO</text>
+      <text x="112" y="120" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="12" fill="#ffffff" text-anchor="middle">⚡ SPEED</text>
+      <text x="112" y="138" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="10" fill="#a7f3d0" text-anchor="middle">RAMPING</text>
+    </g>
+
+    <g transform="translate(245, 245)">
+      <rect x="0" y="0" width="225" height="225" rx="16" fill="url(#miloBg)"/>
+      <rect x="65" y="40" width="95" height="145" rx="8" fill="#047857" stroke="#34d399" stroke-width="2"/>
+      <rect x="75" y="50" width="75" height="24" rx="4" fill="#fbbf24"/>
+      <text x="112" y="67" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="14" fill="#78350f" text-anchor="middle">MILO</text>
+      <text x="112" y="115" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="10" fill="#ffffff" text-anchor="middle">SỮA LÚA</text>
+      <text x="112" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="10" fill="#ffffff" text-anchor="middle">MẠCH</text>
+    </g>
+  </g>
+</svg>

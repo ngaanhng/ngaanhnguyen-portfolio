@@ -1,0 +1,41 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hatBoiBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#450a0a" />
+      <stop offset="50%" stop-color="#18181b" />
+      <stop offset="100%" stop-color="#7f1d1d" />
+    </linearGradient>
+    <radialGradient id="stageGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="500" rx="24" fill="url(#hatBoiBg)"/>
+  <rect width="500" height="500" rx="24" fill="url(#stageGlow)"/>
+
+  <g transform="translate(25, 25)">
+    <rect x="0" y="0" width="115" height="32" rx="8" fill="#991b1b" stroke="#fca5a5" stroke-width="1"/>
+    <text x="57" y="21" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="11" fill="#ffffff" text-anchor="middle">SÓNG NEWS 🎙️</text>
+  </g>
+
+  <g transform="translate(250, 180)">
+    <path d="M-100 -50 L-80 -110 L-30 -80 L0 -130 L30 -80 L80 -110 L100 -50 Z" fill="#d97706" stroke="#fef08a" stroke-width="2"/>
+    <circle cx="-60" cy="-70" r="10" fill="#ef4444"/>
+    <circle cx="0" cy="-95" r="14" fill="#ef4444"/>
+    <circle cx="60" cy="-70" r="10" fill="#ef4444"/>
+    <ellipse cx="0" cy="15" rx="65" ry="85" fill="#fef2f2" stroke="#991b1b" stroke-width="3"/>
+    <path d="M-50 -10 Q-20 20 -45 50" stroke="#dc2626" stroke-width="8" fill="none"/>
+    <path d="M50 -10 Q20 20 45 50" stroke="#dc2626" stroke-width="8" fill="none"/>
+    <path d="M-45 -20 Q-20 -40 0 -20" stroke="#000000" stroke-width="6" fill="none"/>
+    <path d="M45 -20 Q20 -40 0 -20" stroke="#000000" stroke-width="6" fill="none"/>
+    <ellipse cx="-22" cy="-10" rx="8" ry="4" fill="#000000"/>
+    <ellipse cx="22" cy="-10" rx="8" ry="4" fill="#000000"/>
+    <path d="M-18 60 Q0 50 18 60 Q0 75 -18 60 Z" fill="#b91c1c"/>
+  </g>
+
+  <g transform="translate(250, 375)">
+    <text x="0" y="0" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="14" fill="#fbbf24" text-anchor="middle" letter-spacing="4">KHÁM PHÁ NGHỆ THUẬT</text>
+    <text x="0" y="42" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="2">HÁT BỘI</text>
+    <text x="0" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12" fill="#cbd5e1" text-anchor="middle">Phim tài liệu 4 phút • Tôn vinh di sản tuồng cổ</text>
+  </g>
+</svg>
