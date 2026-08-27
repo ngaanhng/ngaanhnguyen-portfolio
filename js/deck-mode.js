@@ -8,7 +8,7 @@ class DeckModeController {
     this.deckContainer = document.getElementById('deck-viewport');
     this.slidesWrapper = document.getElementById('deck-slides-wrapper');
     this.currentSlide = 0;
-    this.totalSlides = 15;
+    this.totalSlides = 16;
     this.isOpen = false;
     this.evidenceModal = null;
     this.bindEvents();
@@ -309,8 +309,89 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 4: Năng lực chuyên môn (Skills Card) -->
+      <!-- Slide 4: Giấy phép & Chứng nhận (Certifications Card) -->
       <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-5 sm:p-7 md:p-8 relative overflow-hidden" data-slide="3">
+        <div class="flex justify-between items-center px-2 mb-2 flex-shrink-0">
+          <div>
+            <span class="text-xs font-extrabold uppercase tracking-widest text-pink-600">MY CERTIFICATIONS</span>
+            <h2 class="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 tracking-tight">Giấy phép &amp; Chứng nhận</h2>
+          </div>
+          <span class="text-xs sm:text-sm text-gray-500 font-medium max-w-sm hidden sm:block text-right">Chứng chỉ chuyên môn quốc tế &amp; Kỹ năng số</span>
+        </div>
+
+        <!-- Single Card White with Prominent Pink Border -->
+        <div class="bg-white p-5 sm:p-6 md:p-7 rounded-2xl sm:rounded-3xl border-2 border-pink-300 shadow-xl flex flex-col justify-between my-auto flex-grow max-h-[78%]">
+          <div>
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3.5 sm:mb-4">
+              <div class="flex items-center gap-3 sm:gap-3.5">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-pink-50 text-pink-600 flex items-center justify-center border border-pink-200 flex-shrink-0 shadow-xs">
+                  <i data-lucide="award" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+                </div>
+                <h3 class="text-base sm:text-lg md:text-xl font-black text-[#B8005A] tracking-normal uppercase">CHỨNG CHỈ ĐẠT ĐƯỢC</h3>
+              </div>
+              <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3 py-1 rounded-full w-fit border border-pink-100 shadow-xs">Th.05/2025 – Th.06/2025</span>
+            </div>
+
+            <ul class="space-y-2.5 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-800 leading-snug mb-4">
+              <li class="flex items-start gap-2.5">
+                <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
+                <div>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/PSCHWMZJNX7L" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                    <span>Foundations of Digital Marketing and E-commerce</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                  </a>
+                </div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
+                <div>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/BJG18WF4SV8E" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                    <span>Create Informative Presentations with Microsoft PowerPoint</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                  </a>
+                </div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
+                <div>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/M8ZAPDD1TGSS" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                    <span>AI Basics and Tools for Creativity</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                  </a>
+                </div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
+                <div>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/8RJ25VY6CPDB" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                    <span>AI For Everyone</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                  </a>
+                </div>
+              </li>
+              <li class="flex items-start gap-2.5">
+                <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
+                <div>
+                  <a href="https://www.coursera.org/account/accomplishments/verify/PMPOB4O3BQKC" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                    <span>GenAI for Everyone</span>
+                    <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-wrap gap-2 sm:gap-2.5 pt-3.5 border-t border-pink-100 text-xs sm:text-sm font-bold text-pink-700">
+            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🎓 Digital Marketing &amp; E-commerce</span>
+            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">📊 MS PowerPoint</span>
+            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🎨 AI Tools for Creativity</span>
+            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🤖 AI &amp; GenAI for Everyone</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: Năng lực chuyên môn (Skills Card) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-5 sm:p-7 md:p-8 relative overflow-hidden" data-slide="4">
         <div class="flex justify-between items-center px-2 mb-2 flex-shrink-0">
           <div>
             <span class="text-xs font-extrabold uppercase tracking-widest text-pink-600">Professional skills</span>
@@ -357,8 +438,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 5: Section Divider Projects -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="4">
+      <!-- Slide 6: Section Divider Projects -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="5">
         <div class="flex justify-between items-center px-4">
           <span class="font-black text-[#B8005A] text-lg md:text-xl">Nga Anh Nguyen</span>
           <span class="font-black text-[#B8005A] text-lg md:text-xl">2026</span>
@@ -382,8 +463,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 6: Project - 1 (TVC Milo) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="5">
+      <!-- Slide 7: Project - 1 (TVC Milo) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="6">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 1 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -423,8 +504,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 7: Project - 2 (Talkshow Nhà Truyền Thông Học Tâm Lý) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="6">
+      <!-- Slide 8: Project - 2 (Talkshow Nhà Truyền Thông Học Tâm Lý) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="7">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 2 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -464,8 +545,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 8: Project - 3 (Documentary Hát Bội) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="7">
+      <!-- Slide 9: Project - 3 (Documentary Hát Bội) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="8">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 3 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -505,8 +586,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 9: Project - 4 (Interview Canton Fair 137 - 2025) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="8">
+      <!-- Slide 10: Project - 4 (Interview Canton Fair 137 - 2025) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="9">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 4 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -546,8 +627,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 10: Project - 5 (MV Hẹn Lần Sau - 2026) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="9">
+      <!-- Slide 11: Project - 5 (MV Hẹn Lần Sau - 2026) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="10">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 5 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -587,8 +668,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 11: Project - 6 (Talkshow Góc Nhìn Sáng Tạo - 2026) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="10">
+      <!-- Slide 12: Project - 6 (Talkshow Góc Nhìn Sáng Tạo - 2026) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="11">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 6 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -628,8 +709,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 12: Project - 7 (Interview Bất Động Sản - 2026) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="11">
+      <!-- Slide 13: Project - 7 (Interview Bất Động Sản - 2026) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="12">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 7 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -669,8 +750,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 13: Project - 8 (Interview Chuyện Nghề Truyền Thông - 2026) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="12">
+      <!-- Slide 14: Project - 8 (Interview Chuyện Nghề Truyền Thông - 2026) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="13">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 8 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -710,8 +791,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 14: Project - 9 (Startup Little Spoon - 2026) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="13">
+      <!-- Slide 15: Project - 9 (Startup Little Spoon - 2026) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="14">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 9 / 9</span>
           <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
@@ -751,8 +832,8 @@ class DeckModeController {
         </div>
       </div>
 
-      <!-- Slide 15: Contact Me (Kết Nối & Hợp Tác) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="14">
+      <!-- Slide 16: Contact Me (Kết Nối & Hợp Tác) -->
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="15">
         <div class="flex justify-between items-center px-4">
           <span class="font-black text-[#B8005A] text-lg md:text-xl">Nga Anh Nguyen</span>
           <span class="font-black text-[#B8005A] text-lg md:text-xl">2026</span>
