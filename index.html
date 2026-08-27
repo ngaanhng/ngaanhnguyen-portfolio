@@ -45,7 +45,7 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="css/style.css?v=11.1">
+  <link rel="stylesheet" href="css/style.css?v=13.1">
 </head>
 <body class="bg-[#FAFAFB] text-gray-900 pb-32">
 
@@ -126,36 +126,36 @@
 
   <!-- Top Navigation Header -->
   <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-pink-100 transition-all w-full overflow-x-hidden">
-    <div class="max-w-7xl mx-auto px-3 sm:px-4 md:px-5 lg:px-8 h-18 sm:h-20 flex items-center justify-between gap-1.5 sm:gap-2 md:gap-3 lg:gap-6">
+    <div class="max-w-7xl mx-auto header-inner-container px-3 sm:px-4 md:px-4 lg:px-6 xl:px-8 h-16 sm:h-18 md:h-18 lg:h-20 flex items-center justify-between gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-4 xl:gap-6">
       <!-- Logo & Identity -->
-      <a href="#" class="flex items-center gap-2 sm:gap-2.5 lg:gap-3 group flex-shrink-0">
-        <div class="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 rounded-2xl bg-gradient-to-tr from-pink-700 to-rose-500 flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform flex-shrink-0">
-          <img src="assets/images/flower.svg" class="w-5 h-5 sm:w-6 sm:h-6 object-contain" alt="Logo">
+      <a href="#" class="flex items-center gap-1.5 sm:gap-2 md:gap-2 lg:gap-3 group flex-shrink-0">
+        <div class="brand-logo-box w-7 h-7 sm:w-8 sm:h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 xl:w-10 xl:h-10 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-pink-700 to-rose-500 flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform flex-shrink-0">
+          <img src="assets/images/flower.svg" class="brand-logo-img w-4 h-4 sm:w-5 sm:h-5 md:w-4.5 md:h-4.5 lg:w-5.5 lg:h-5.5 xl:w-6 xl:h-6 object-contain" alt="Logo">
         </div>
         <div class="flex-shrink-0">
-          <span class="font-black text-gray-900 text-sm sm:text-base lg:text-lg tracking-tight block leading-tight whitespace-nowrap">Nga Anh Nguyen</span>
-          <span class="text-[9px] sm:text-[10px] lg:text-[11px] font-bold text-pink-600 tracking-wider uppercase block whitespace-nowrap">MULTIMEDIA COMMUNICATIONS STUDENT</span>
+          <span class="brand-name font-black text-gray-900 text-xs sm:text-sm md:text-[13px] lg:text-[15px] xl:text-lg tracking-tight block leading-tight whitespace-nowrap">Nga Anh Nguyen</span>
+          <span class="brand-subtitle text-[7px] sm:text-[8.5px] md:text-[7.5px] lg:text-[9px] xl:text-[11px] font-bold text-pink-600 tracking-tight sm:tracking-normal lg:tracking-wider uppercase block whitespace-nowrap">MULTIMEDIA COMMUNICATIONS STUDENT</span>
         </div>
       </a>
 
       <!-- Navigation Links -->
-      <nav class="hidden md:flex items-center gap-2 md:gap-2.5 lg:gap-5 xl:gap-7 text-[11px] md:text-xs lg:text-sm font-bold text-gray-600 flex-shrink-0">
-        <a href="#about" class="whitespace-nowrap hover:text-pink-600 transition-colors">Giới thiệu</a>
-        <a href="#cv" class="whitespace-nowrap hover:text-pink-600 transition-colors">CV &amp; Kinh nghiệm</a>
-        <a href="#certifications" class="whitespace-nowrap hover:text-pink-600 transition-colors">Chứng chỉ</a>
-        <a href="#skills" class="whitespace-nowrap hover:text-pink-600 transition-colors">Kỹ năng</a>
-        <a href="#projects" class="whitespace-nowrap hover:text-pink-600 transition-colors">Dự án đã làm</a>
-        <a href="#contact" class="whitespace-nowrap hover:text-pink-600 transition-colors">Liên hệ</a>
+      <nav class="hidden md:flex items-center gap-1 md:gap-1.5 lg:gap-3.5 xl:gap-6 text-[10px] md:text-[10.5px] lg:text-[12.5px] xl:text-sm font-bold text-gray-600 flex-shrink-0">
+        <a href="#about" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Giới thiệu</a>
+        <a href="#cv" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">CV &amp; Kinh nghiệm</a>
+        <a href="#certifications" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Chứng chỉ</a>
+        <a href="#skills" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Kỹ năng</a>
+        <a href="#projects" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Dự án đã làm</a>
+        <a href="#contact" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Liên hệ</a>
       </nav>
 
       <!-- Action: Switch to 9-Slide Deck Mode -->
-      <div class="flex items-center gap-1.5 sm:gap-2 lg:gap-3 flex-shrink-0">
-        <button id="switch-to-deck-btn" class="px-2.5 sm:px-3.5 lg:px-4 py-1.5 sm:py-2 lg:py-2.5 bg-pink-50 hover:bg-pink-100 text-pink-700 rounded-full font-bold text-[11px] sm:text-xs border border-pink-200 shadow-sm flex items-center gap-1 sm:gap-1.5 lg:gap-2 transition-all hover:scale-105 whitespace-nowrap">
+      <div class="header-actions flex items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2.5 xl:gap-3 flex-shrink-0">
+        <button id="switch-to-deck-btn" class="px-2 py-1.5 sm:px-3 sm:py-2 md:px-2.5 md:py-1.5 lg:px-3.5 lg:py-2 xl:px-4 xl:py-2.5 bg-pink-50 hover:bg-pink-100 text-pink-700 rounded-full font-bold text-[10px] sm:text-xs md:text-[10.5px] lg:text-xs border border-pink-200 shadow-xs flex items-center gap-1 sm:gap-1.5 lg:gap-2 transition-all hover:scale-105 whitespace-nowrap">
           <i data-lucide="presentation" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-pink-600 flex-shrink-0"></i>
-          <span class="whitespace-nowrap"><span class="hidden xl:inline">Chế độ </span>Trình chiếu Slide</span>
+          <span class="whitespace-nowrap"><span class="hidden 2xl:inline">Chế độ </span>Trình chiếu Slide</span>
         </button>
 
-        <a href="#contact" class="hidden sm:inline-flex px-3 sm:px-4 lg:px-5 py-1.5 sm:py-2 lg:py-2.5 bg-gradient-to-r from-pink-700 to-rose-600 hover:from-pink-800 hover:to-rose-700 text-white rounded-full font-extrabold text-[11px] sm:text-xs shadow-md transition-all whitespace-nowrap">
+        <a href="#contact" class="header-contact-btn inline-flex px-2.5 py-1.5 sm:px-3.5 sm:py-2 md:px-3 md:py-1.5 lg:px-4 lg:py-2 xl:px-5 xl:py-2.5 bg-gradient-to-r from-pink-700 to-rose-600 hover:from-pink-800 hover:to-rose-700 text-white rounded-full font-extrabold text-[10px] sm:text-xs md:text-[10.5px] lg:text-xs shadow-xs transition-all whitespace-nowrap">
           Hợp tác ngay
         </a>
       </div>
@@ -797,10 +797,10 @@
   </div>
 
   <!-- JavaScript Modules -->
-  <script src="js/projects-data.js?v=12.7"></script>
-  <script src="js/video-player.js?v=12.7"></script>
-  <script src="js/evidence-modal.js?v=12.7"></script>
-  <script src="js/deck-mode.js?v=12.7"></script>
-  <script src="js/app.js?v=12.7"></script>
+  <script src="js/projects-data.js?v=13.1"></script>
+  <script src="js/video-player.js?v=13.1"></script>
+  <script src="js/evidence-modal.js?v=13.1"></script>
+  <script src="js/deck-mode.js?v=13.1"></script>
+  <script src="js/app.js?v=13.1"></script>
 </body>
 </html>

@@ -602,25 +602,167 @@ main {
   }
 }
 
-/* Responsive Navigation Header specifically for iPad Landscape / Tablets (1024px - 1280px) */
-@media (min-width: 1024px) and (max-width: 1280px) {
+/* ==========================================================================
+   DEDICATED RESPONSIVE HEADER FOR IPAD PORTRAIT, IPAD LANDSCAPE & LAPTOPS
+   ========================================================================== */
+
+/* 1. iPad Portrait / Small Tablets (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  header .header-inner-container {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    gap: 0.4rem !important;
+    height: 4.25rem !important;
+  }
+  header .brand-logo-box {
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 0.75rem !important;
+  }
+  header .brand-logo-img {
+    width: 1.15rem !important;
+    height: 1.15rem !important;
+  }
+  header .brand-name {
+    font-size: 0.8125rem !important;
+    line-height: 1.1 !important;
+    letter-spacing: -0.02em !important;
+  }
+  header .brand-subtitle {
+    font-size: 0.475rem !important;
+    letter-spacing: -0.01em !important;
+  }
   header nav {
-    gap: 1.5rem !important;
+    gap: 0.35rem !important;
   }
   header nav a {
+    font-size: 0.6875rem !important;
+    font-weight: 700 !important;
+    padding: 0.2rem 0.2rem !important;
     white-space: nowrap !important;
+  }
+  header .header-actions {
+    gap: 0.35rem !important;
+  }
+  header #switch-to-deck-btn {
+    padding: 0.35rem 0.6rem !important;
+    font-size: 0.6875rem !important;
+    gap: 0.3rem !important;
+    white-space: nowrap !important;
+  }
+  header #switch-to-deck-btn svg,
+  header #switch-to-deck-btn i {
+    width: 0.85rem !important;
+    height: 0.85rem !important;
+  }
+  header .header-contact-btn {
+    display: inline-flex !important;
+    padding: 0.35rem 0.65rem !important;
+    font-size: 0.6875rem !important;
+    font-weight: 800 !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* 2. iPad Landscape / Standard Tablets (1024px - 1279px) */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  header .header-inner-container {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+    gap: 1rem !important;
+    height: 4.5rem !important;
+  }
+  header .brand-logo-box {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+  header .brand-logo-img {
+    width: 1.35rem !important;
+    height: 1.35rem !important;
+  }
+  header .brand-name {
+    font-size: 0.95rem !important;
+    line-height: 1.15 !important;
+  }
+  header .brand-subtitle {
+    font-size: 0.58rem !important;
+    letter-spacing: 0.02em !important;
+  }
+  header nav {
+    gap: 0.9rem !important;
+  }
+  header nav a {
+    font-size: 0.8125rem !important;
+    font-weight: 700 !important;
+    padding: 0.25rem 0.25rem !important;
+    white-space: nowrap !important;
+  }
+  header .header-actions {
+    gap: 0.5rem !important;
+  }
+  header #switch-to-deck-btn {
+    padding: 0.45rem 0.85rem !important;
+    font-size: 0.78rem !important;
+    gap: 0.4rem !important;
+    white-space: nowrap !important;
+  }
+  header #switch-to-deck-btn svg,
+  header #switch-to-deck-btn i {
+    width: 0.95rem !important;
+    height: 0.95rem !important;
+  }
+  header .header-contact-btn {
+    display: inline-flex !important;
+    padding: 0.45rem 0.95rem !important;
+    font-size: 0.78rem !important;
+    font-weight: 800 !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* 3. Laptops & High-Resolution Displays (1280px+) */
+@media (min-width: 1280px) {
+  header .header-inner-container {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    gap: 1.5rem !important;
+    height: 5rem !important;
+  }
+  header .brand-logo-box {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+  header .brand-logo-img {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+  header .brand-name {
+    font-size: 1.125rem !important;
+  }
+  header .brand-subtitle {
+    font-size: 0.6875rem !important;
+    letter-spacing: 0.05em !important;
+  }
+  header nav {
+    gap: 1.75rem !important;
+  }
+  header nav a {
     font-size: 0.875rem !important;
     font-weight: 700 !important;
   }
-  header #switch-to-deck-btn {
-    padding: 0.5rem 1rem !important;
-    font-size: 0.8rem !important;
-    white-space: nowrap !important;
+  header .header-actions {
+    gap: 0.75rem !important;
   }
-  header a[href="#contact"].rounded-full {
-    padding: 0.5rem 1.15rem !important;
-    font-size: 0.8rem !important;
-    white-space: nowrap !important;
+  header #switch-to-deck-btn {
+    padding: 0.625rem 1.15rem !important;
+    font-size: 0.8125rem !important;
+    gap: 0.5rem !important;
+  }
+  header .header-contact-btn {
+    display: inline-flex !important;
+    padding: 0.625rem 1.25rem !important;
+    font-size: 0.8125rem !important;
+    font-weight: 800 !important;
   }
 }
 

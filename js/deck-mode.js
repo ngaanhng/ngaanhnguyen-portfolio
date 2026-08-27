@@ -118,9 +118,9 @@ class DeckModeController {
   renderSlides() {
     this.slidesWrapper.innerHTML = `
       <!-- Slide 1: Cover (Trang Bìa) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="0">
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-8 lg:p-10 relative overflow-hidden" data-slide="0">
         <!-- Top header info -->
-        <div class="flex justify-between items-center px-4">
+        <div class="flex justify-between items-center px-4 flex-shrink-0">
           <div class="flex items-center gap-2">
             <span class="w-2.5 h-2.5 rounded-full bg-pink-600 animate-pulse"></span>
             <span class="text-xs font-bold text-gray-500 uppercase tracking-widest">My Multimedia Portfolio</span>
@@ -130,7 +130,7 @@ class DeckModeController {
         </div>
 
         <!-- Main Folder Body -->
-        <div class="my-auto bg-[#B8005A] rounded-[32px] md:rounded-[40px] p-6 md:p-12 text-white relative shadow-2xl overflow-hidden flex items-center justify-between min-h-[65%]">
+        <div class="my-auto bg-[#B8005A] rounded-[32px] md:rounded-[36px] p-6 sm:p-8 md:p-10 lg:p-12 text-white relative shadow-2xl overflow-hidden flex items-center justify-between min-h-[66%] max-h-[72%] flex-shrink-0">
           <!-- 4x2 Dot grid top left -->
           <div class="absolute top-6 left-8 dot-grid-4x2">
             <span></span><span></span><span></span><span></span>
@@ -138,7 +138,7 @@ class DeckModeController {
           </div>
 
           <!-- Bold Typography -->
-          <div class="relative z-10 select-none pl-4">
+          <div class="relative z-10 select-none pl-3 sm:pl-4">
             <div class="leading-none mb-0 overflow-visible">
               <span class="font-signature text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white block whitespace-nowrap drop-shadow-lg -rotate-1 pl-1">
                 Nguyễn Nga Anh
@@ -150,27 +150,27 @@ class DeckModeController {
           </div>
 
           <!-- Signature Flower Icon -->
-          <div class="w-36 h-36 md:w-56 md:h-56 relative z-10 flex-shrink-0 mr-4">
+          <div class="w-32 h-32 sm:w-40 sm:h-40 md:w-52 md:h-52 relative z-10 flex-shrink-0 mr-3 sm:mr-6">
             <img src="assets/images/flower.svg" class="w-full h-full object-contain flower-spin-slow flower-glow" alt="Flower">
           </div>
         </div>
 
         <!-- Slide Footer Taskbar -->
-        <div class="bg-[#B8005A] text-white rounded-2xl px-6 py-3 flex items-center justify-between shadow-lg">
-          <div class="flex items-center gap-4">
-            <i data-lucide="menu" class="w-5 h-5"></i>
-            <div class="bg-white/20 px-4 py-1.5 rounded-full flex items-center gap-2 text-xs w-48 sm:w-64 border border-white/30">
+        <div class="bg-[#B8005A] text-white rounded-2xl px-5 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between shadow-lg flex-shrink-0">
+          <div class="flex items-center gap-3 sm:gap-4">
+            <i data-lucide="menu" class="w-4.5 h-4.5 sm:w-5 sm:h-5"></i>
+            <div class="bg-white/20 px-3.5 sm:px-4 py-1.5 rounded-full flex items-center gap-2 text-xs w-48 sm:w-64 border border-white/30">
               <i data-lucide="search" class="w-3.5 h-3.5"></i>
-              <span class="opacity-80">ngaanhnguyen-portfolio</span>
+              <span class="opacity-80 truncate">ngaanhnguyen-portfolio</span>
               <i data-lucide="mic" class="w-3.5 h-3.5 ml-auto"></i>
             </div>
-            <i data-lucide="folder" class="w-5 h-5"></i>
-            <i data-lucide="globe" class="w-5 h-5"></i>
+            <i data-lucide="folder" class="w-4.5 h-4.5 sm:w-5 sm:h-5"></i>
+            <i data-lucide="globe" class="w-4.5 h-4.5 sm:w-5 sm:h-5"></i>
           </div>
-          <div class="flex items-center gap-3 text-xs">
-            <i data-lucide="wifi" class="w-4 h-4"></i>
-            <i data-lucide="volume-2" class="w-4 h-4"></i>
-            <i data-lucide="battery" class="w-5 h-5"></i>
+          <div class="flex items-center gap-2.5 sm:gap-3 text-xs">
+            <i data-lucide="wifi" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+            <i data-lucide="volume-2" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+            <i data-lucide="battery" class="w-4 h-4 sm:w-5 sm:h-5"></i>
           </div>
         </div>
       </div>
@@ -534,7 +534,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">TALKSHOW NHÀ TRUYỀN THÔNG HỌC TÂM LÝ</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor, Cameraman</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut Pro, CapCut, Canva</span></p>
             </div>
 
@@ -739,7 +739,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug line-clamp-2">INTERVIEW: BẠN CÓ QUAN TÂM VỀ BẤT ĐỘNG SẢN?</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor, Cameraman</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut, Canva</span></p>
             </div>
 
@@ -780,7 +780,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug line-clamp-2">INTERVIEW: PHỎNG VẤN KHÁCH HÀNG MỤC TIÊU (LITTLE SPOON)</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Lead Video Editor &amp; Content Producer</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Lead Video Editor &amp; Content Producer, Cameraman</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut, Canva</span></p>
             </div>
 
@@ -842,48 +842,48 @@ class DeckModeController {
       </div>
 
       <!-- Slide 16: Contact Me (Kết Nối & Hợp Tác) -->
-      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="15">
-        <div class="flex justify-between items-center px-4">
-          <span class="font-black text-[#B8005A] text-lg md:text-xl">Nga Anh Nguyen</span>
-          <span class="font-black text-[#B8005A] text-lg md:text-xl">2026</span>
+      <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-8 lg:p-10 relative overflow-hidden" data-slide="15">
+        <div class="flex justify-between items-center px-4 flex-shrink-0">
+          <span class="font-black text-[#B8005A] text-base md:text-xl">Nga Anh Nguyen</span>
+          <span class="font-black text-[#B8005A] text-base md:text-xl">2026</span>
         </div>
 
-        <div class="my-auto bg-[#B8005A] rounded-[36px] p-6 sm:p-10 md:p-12 text-white relative shadow-2xl flex items-center justify-between">
-          <div class="space-y-5 text-left pl-2">
+        <div class="my-auto bg-[#B8005A] rounded-[32px] md:rounded-[36px] p-6 sm:p-8 md:p-10 lg:p-12 text-white relative shadow-2xl flex items-center justify-between min-h-[66%] max-h-[72%] flex-shrink-0">
+          <div class="space-y-4 sm:space-y-5 text-left pl-2 sm:pl-3">
             <div>
               <h2 class="text-4xl md:text-6xl font-black tracking-tight mb-1">Contact Me</h2>
-              <div class="font-script text-5xl md:text-7xl text-pink-200 font-bold -rotate-2">
+              <div class="font-script text-5xl md:text-7xl text-pink-200 font-bold -rotate-2 leading-none mb-3">
                 Let's Work Together!
               </div>
             </div>
 
-            <div class="space-y-4 text-sm md:text-base pt-2 font-semibold">
-              <div class="flex items-center gap-4 group cursor-pointer transition-all hover:translate-x-1" onclick="copyContactInfo('0962468650', 'Đã sao chép số điện thoại!')" title="Nhấp để sao chép số điện thoại">
-                <div class="w-10 h-10 rounded-full bg-white text-[#B8005A] flex items-center justify-center font-bold shadow group-hover:scale-110 transition-transform flex-shrink-0">
-                  <i data-lucide="phone" class="w-5 h-5"></i>
+            <div class="space-y-3 sm:space-y-3.5 md:space-y-4 text-xs sm:text-sm md:text-base pt-1 font-semibold">
+              <div class="flex items-center gap-3.5 sm:gap-4 group cursor-pointer transition-all hover:translate-x-1" onclick="copyContactInfo('0962468650', 'Đã sao chép số điện thoại!')" title="Nhấp để sao chép số điện thoại">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white text-[#B8005A] flex items-center justify-center font-bold shadow group-hover:scale-110 transition-transform flex-shrink-0">
+                  <i data-lucide="phone" class="w-4.5 h-4.5 sm:w-5 sm:h-5"></i>
                 </div>
                 <span class="group-hover:underline group-hover:text-pink-100 transition-colors">0962468650</span>
               </div>
 
-              <div class="flex items-center gap-4 group cursor-pointer transition-all hover:translate-x-1" onclick="copyContactInfo('nguyenngaanh6704@gmail.com', 'Đã sao chép email!')" title="Nhấp để sao chép email">
-                <div class="w-10 h-10 rounded-full bg-white text-[#B8005A] flex items-center justify-center font-bold shadow group-hover:scale-110 transition-transform flex-shrink-0">
-                  <i data-lucide="mail" class="w-5 h-5"></i>
+              <div class="flex items-center gap-3.5 sm:gap-4 group cursor-pointer transition-all hover:translate-x-1" onclick="copyContactInfo('nguyenngaanh6704@gmail.com', 'Đã sao chép email!')" title="Nhấp để sao chép email">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white text-[#B8005A] flex items-center justify-center font-bold shadow group-hover:scale-110 transition-transform flex-shrink-0">
+                  <i data-lucide="mail" class="w-4.5 h-4.5 sm:w-5 sm:h-5"></i>
                 </div>
                 <span class="group-hover:underline group-hover:text-pink-100 transition-colors break-all">nguyenngaanh6704@gmail.com</span>
               </div>
 
-              <div class="flex items-center gap-4">
-                <div class="w-10 h-10 rounded-full bg-white text-[#B8005A] flex items-center justify-center font-bold shadow flex-shrink-0">
-                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+              <div class="flex items-center gap-3.5 sm:gap-4">
+                <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white text-[#B8005A] flex items-center justify-center font-bold shadow flex-shrink-0">
+                  <i data-lucide="map-pin" class="w-4.5 h-4.5 sm:w-5 sm:h-5"></i>
                 </div>
                 <span>TP. Hồ Chí Minh, Việt Nam</span>
               </div>
             </div>
           </div>
 
-          <div class="flex flex-col items-center justify-center mr-6 space-y-3">
+          <div class="flex flex-col items-center justify-center mr-4 sm:mr-6 md:mr-8 space-y-2 sm:space-y-3 flex-shrink-0">
             <!-- Flower on Top -->
-            <div class="w-32 h-32 md:w-44 md:h-44 flex items-center justify-center">
+            <div class="w-28 h-28 sm:w-36 sm:h-36 md:w-44 md:h-44 flex items-center justify-center">
               <img src="assets/images/flower.svg" class="w-full h-full object-contain flower-spin-slow flower-glow" alt="Flower">
             </div>
 
@@ -897,18 +897,19 @@ class DeckModeController {
         </div>
 
         <!-- Footer Dock -->
-        <div class="bg-[#B8005A] text-white rounded-2xl px-6 py-3 flex items-center justify-between shadow-lg">
-          <div class="flex items-center gap-4">
-            <i data-lucide="menu" class="w-5 h-5"></i>
-            <div class="bg-white/20 px-4 py-1.5 rounded-full flex items-center gap-2 text-xs w-48 sm:w-64 border border-white/30">
+        <div class="bg-[#B8005A] text-white rounded-2xl px-5 sm:px-6 py-2.5 sm:py-3 flex items-center justify-between shadow-lg flex-shrink-0">
+          <div class="flex items-center gap-3 sm:gap-4">
+            <i data-lucide="menu" class="w-4.5 h-4.5 sm:w-5 sm:h-5"></i>
+            <div class="bg-white/20 px-3.5 sm:px-4 py-1.5 rounded-full flex items-center gap-2 text-xs w-48 sm:w-64 border border-white/30">
               <i data-lucide="search" class="w-3.5 h-3.5"></i>
-              <span class="opacity-80">ngaanhnguyen-portfolio</span>
+              <span class="opacity-80 truncate">ngaanhnguyen-portfolio</span>
               <i data-lucide="mic" class="w-3.5 h-3.5 ml-auto"></i>
             </div>
-          <div class="flex items-center gap-3 text-xs">
-            <i data-lucide="wifi" class="w-4 h-4"></i>
-            <i data-lucide="volume-2" class="w-4 h-4"></i>
-            <i data-lucide="battery" class="w-5 h-5"></i>
+          </div>
+          <div class="flex items-center gap-2.5 sm:gap-3 text-xs">
+            <i data-lucide="wifi" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+            <i data-lucide="volume-2" class="w-3.5 h-3.5 sm:w-4 sm:h-4"></i>
+            <i data-lucide="battery" class="w-4 h-4 sm:w-5 sm:h-5"></i>
           </div>
         </div>
       </div>
