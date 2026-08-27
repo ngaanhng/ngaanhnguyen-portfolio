@@ -173,28 +173,34 @@ class EvidenceModal {
         `)}
 
         <!-- Project Highlights & Technical Details -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        ${p.liveAppUrl ? `
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="p-5 bg-pink-50/50 rounded-2xl border border-pink-100 space-y-2">
+              <h4 class="font-bold text-gray-900 text-sm flex items-center gap-2">
+                <i data-lucide="sparkles" class="w-4 h-4 text-pink-600"></i> Mục tiêu kỹ thuật &amp; Kế hoạch dự án
+              </h4>
+              <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">${p.shortDesc}</p>
+            </div>
+
+            <div class="p-5 bg-pink-50/50 rounded-2xl border border-pink-100 space-y-2">
+              <h4 class="font-bold text-gray-900 text-sm flex items-center gap-2">
+                <i data-lucide="smartphone" class="w-4 h-4 text-pink-600"></i> Tính năng Zalo OA Mini App
+              </h4>
+              <ul class="space-y-1.5 text-xs text-gray-600">
+                ${p.miniApp ? p.miniApp.features.map(f => `
+                  <li><strong class="text-pink-900 font-bold">${f.name}:</strong> ${f.desc}</li>
+                `).join('') : '<li>Tối ưu trải nghiệm chuyển đổi số người dùng.</li>'}
+              </ul>
+            </div>
+          </div>
+        ` : `
           <div class="p-5 bg-pink-50/50 rounded-2xl border border-pink-100 space-y-2">
             <h4 class="font-bold text-gray-900 text-sm flex items-center gap-2">
               <i data-lucide="sparkles" class="w-4 h-4 text-pink-600"></i> Mục tiêu kỹ thuật &amp; Kế hoạch dự án
             </h4>
             <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">${p.shortDesc}</p>
           </div>
-
-          <div class="p-5 bg-pink-50/50 rounded-2xl border border-pink-100 space-y-2">
-            <h4 class="font-bold text-gray-900 text-sm flex items-center gap-2">
-              <i data-lucide="${p.liveAppUrl ? 'smartphone' : 'headphones'}" class="w-4 h-4 text-pink-600"></i> 
-              ${p.liveAppUrl ? 'Tính năng Zalo OA Mini App' : 'Thiết kế âm thanh &amp; Xử lý thoại'}
-            </h4>
-            <ul class="space-y-1.5 text-xs text-gray-600">
-              ${p.miniApp ? p.miniApp.features.map(f => `
-                <li><strong class="text-pink-900 font-bold">${f.name}:</strong> ${f.desc}</li>
-              `).join('') : (p.audioDesign ? p.audioDesign.details.map(d => `
-                <li><strong class="text-gray-800">${d.label}:</strong> ${d.desc}</li>
-              `).join('') : '<li>Tối ưu trải nghiệm chuyển đổi số người dùng.</li>')}
-            </ul>
-          </div>
-        </div>
+        `}
       </div>
     `;
 

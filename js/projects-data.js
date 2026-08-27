@@ -32,8 +32,8 @@ const PROJECTS_DATA = [
       {
         id: "tvc-1",
         label: "TVC 1",
-        title: "MILO TVC 1 - Năng Lượng Đột Phá 2X Protein (Phần 1)",
-        subtitle: "Kỹ thuật Speed Ramping, Audio Ducking & Color Grade MILO Sport",
+        title: "MILO TVC 1 - Năng Lượng Tiếp Sức Hành Trình Kiên Định (Phần 1)",
+        subtitle: "",
         poster: "assets/images/milo_graded.svg",
         driveUrl: "https://drive.google.com/file/d/10KMDQPnNEpQprAr_FFquhKsBUPdDTzUr/view?usp=drive_link",
         sampleSrc: "https://drive.google.com/file/d/10KMDQPnNEpQprAr_FFquhKsBUPdDTzUr/preview"
@@ -42,7 +42,7 @@ const PROJECTS_DATA = [
         id: "tvc-2",
         label: "TVC 2",
         title: "MILO TVC 2 - Năng Lượng Bền Bỉ Tiếp Bước Ước Mơ (Phần 2)",
-        subtitle: "Định dạng TVC 30s tối ưu nhịp cắt nhanh, âm thanh thể thao bùng nổ",
+        subtitle: "",
         poster: "assets/images/milo_preview.svg",
         driveUrl: "https://drive.google.com/file/d/1bAYo44U8cJCQudpHatzjUxt9H2T1cWY3/view?usp=drive_link",
         sampleSrc: "https://drive.google.com/file/d/1bAYo44U8cJCQudpHatzjUxt9H2T1cWY3/preview"
@@ -52,8 +52,8 @@ const PROJECTS_DATA = [
       type: "drive",
       ratio: "16:9",
       duration: "0:45",
-      title: "MILO TVC 1 - Năng Lượng Đột Phá 2X Protein",
-      subtitle: "Bản dựng chính thức với kỹ thuật Speed Ramping & Audio Ducking",
+      title: "MILO TVC 1 - Năng Lượng Tiếp Sức Hành Trình Kiên Định (Phần 1)",
+      subtitle: "",
       poster: "assets/images/milo_graded.svg",
       driveUrl: "https://drive.google.com/file/d/10KMDQPnNEpQprAr_FFquhKsBUPdDTzUr/view?usp=drive_link",
       sampleSrc: "https://drive.google.com/file/d/10KMDQPnNEpQprAr_FFquhKsBUPdDTzUr/preview"

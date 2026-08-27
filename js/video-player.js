@@ -24,8 +24,8 @@ class RetroVideoPlayer {
             <div class="flex items-center gap-2.5">
               <span class="w-2.5 h-2.5 rounded-full bg-pink-500 animate-pulse"></span>
               <div>
-                <h4 class="font-bold text-xs sm:text-sm text-white">${title || 'MV - Hẹn Lần Sau'}</h4>
-                <p class="text-[11px] text-pink-300">${subtitle || 'MAYDAYs • Lead Video Editor & Colorist'}</p>
+                <h4 class="font-bold text-xs sm:text-sm text-white">${title || 'Video Showcase'}</h4>
+                ${subtitle ? `<p class="text-[11px] text-pink-300">${subtitle}</p>` : ''}
               </div>
             </div>
           </div>
@@ -73,7 +73,7 @@ class RetroVideoPlayer {
         <div class="absolute top-0 inset-x-0 p-4 bg-gradient-to-b from-black/80 via-black/40 to-transparent flex items-center justify-between text-white transition-opacity duration-300 group-hover:opacity-100 opacity-90 z-20">
           <div>
             <h4 class="font-bold text-sm md:text-base">${title || 'Video Showcase'}</h4>
-            <p class="text-xs text-pink-300">${subtitle || ''}</p>
+            ${subtitle ? `<p class="text-xs text-pink-300">${subtitle}</p>` : ''}
           </div>
           <span class="px-2.5 py-1 bg-pink-600/80 rounded-full text-xs font-semibold tracking-wider uppercase">HD 1080P</span>
         </div>
