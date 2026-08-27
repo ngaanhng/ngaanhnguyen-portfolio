@@ -594,47 +594,48 @@ main {
   header .header-inner-container {
     width: 100% !important;
     max-width: 100% !important;
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-    height: 4.5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    height: 4.25rem !important;
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
+    gap: 0.5rem !important;
   }
   header .brand-logo-box {
-    width: 2.5rem !important;
-    height: 2.5rem !important;
-    border-radius: 0.875rem !important;
-    box-shadow: 0 4px 10px rgba(190, 24, 93, 0.25) !important;
+    width: 2.15rem !important;
+    height: 2.15rem !important;
+    border-radius: 0.75rem !important;
+    box-shadow: 0 3px 8px rgba(190, 24, 93, 0.2) !important;
   }
   header .brand-logo-img {
-    width: 1.45rem !important;
-    height: 1.45rem !important;
+    width: 1.25rem !important;
+    height: 1.25rem !important;
   }
   header .brand-name {
-    font-size: 1.05rem !important;
+    font-size: 0.875rem !important;
     font-weight: 900 !important;
     color: #111827 !important;
     line-height: 1.15 !important;
     letter-spacing: -0.015em !important;
   }
   header .brand-subtitle {
-    font-size: 0.58rem !important;
+    font-size: 0.52rem !important;
     font-weight: 800 !important;
     color: #DB2777 !important;
-    letter-spacing: 0.04em !important;
+    letter-spacing: 0.02em !important;
     margin-top: 1px !important;
   }
   header nav {
     display: flex !important;
     align-items: center !important;
-    gap: 1.35rem !important;
+    gap: 0.75rem !important;
     margin-left: auto !important;
   }
   header nav a {
-    font-size: 0.84rem !important;
+    font-size: 0.76rem !important;
     font-weight: 700 !important;
-    padding: 0.35rem 0.2rem !important;
+    padding: 0.2rem 0.15rem !important;
     white-space: nowrap !important;
     color: #374151 !important;
     transition: color 0.15s ease !important;
@@ -647,6 +648,30 @@ main {
   header #switch-to-deck-btn,
   header .header-contact-btn {
     display: none !important;
+  }
+}
+
+/* 1.1 Medium iPad Portrait (820px - 1023px) */
+@media (min-width: 820px) and (max-width: 1023px) {
+  header .header-inner-container {
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+  }
+  header .brand-logo-box {
+    width: 2.35rem !important;
+    height: 2.35rem !important;
+  }
+  header .brand-name {
+    font-size: 0.95rem !important;
+  }
+  header .brand-subtitle {
+    font-size: 0.55rem !important;
+  }
+  header nav {
+    gap: 1.05rem !important;
+  }
+  header nav a {
+    font-size: 0.8125rem !important;
   }
 }
 
