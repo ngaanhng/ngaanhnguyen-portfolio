@@ -587,62 +587,64 @@ main {
 
 /* 1. iPad Portrait / Small Tablets (768px - 1023px) */
 @media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    background: rgba(255, 255, 255, 0.98) !important;
+    border-bottom: 1px solid rgba(251, 207, 232, 0.6) !important;
+  }
   header .header-inner-container {
-    padding-left: 1.25rem !important;
-    padding-right: 1.25rem !important;
-    gap: 0.75rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
     height: 4.5rem !important;
+    display: flex !important;
+    align-items: center !important;
     justify-content: space-between !important;
   }
   header .brand-logo-box {
-    width: 2.25rem !important;
-    height: 2.25rem !important;
-    border-radius: 0.75rem !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    border-radius: 0.875rem !important;
+    box-shadow: 0 4px 10px rgba(190, 24, 93, 0.25) !important;
   }
   header .brand-logo-img {
-    width: 1.35rem !important;
-    height: 1.35rem !important;
+    width: 1.45rem !important;
+    height: 1.45rem !important;
   }
   header .brand-name {
-    font-size: 0.95rem !important;
+    font-size: 1.05rem !important;
+    font-weight: 900 !important;
+    color: #111827 !important;
     line-height: 1.15 !important;
-    letter-spacing: -0.01em !important;
+    letter-spacing: -0.015em !important;
   }
   header .brand-subtitle {
     font-size: 0.58rem !important;
-    letter-spacing: 0.02em !important;
+    font-weight: 800 !important;
+    color: #DB2777 !important;
+    letter-spacing: 0.04em !important;
+    margin-top: 1px !important;
   }
   header nav {
     display: flex !important;
-    gap: 0.85rem !important;
+    align-items: center !important;
+    gap: 1.35rem !important;
+    margin-left: auto !important;
   }
   header nav a {
-    font-size: 0.8125rem !important;
+    font-size: 0.84rem !important;
     font-weight: 700 !important;
-    padding: 0.35rem 0.35rem !important;
+    padding: 0.35rem 0.2rem !important;
     white-space: nowrap !important;
-    color: #4B5563 !important;
+    color: #374151 !important;
+    transition: color 0.15s ease !important;
   }
   header nav a:hover {
     color: #DB2777 !important;
   }
-  header .header-actions {
-    gap: 0.5rem !important;
-  }
-  header #switch-to-deck-btn {
-    display: inline-flex !important;
-    padding: 0.45rem 0.95rem !important;
-    font-size: 0.78rem !important;
-    font-weight: 700 !important;
-    gap: 0.4rem !important;
-    white-space: nowrap !important;
-  }
-  header #switch-to-deck-btn svg,
-  header #switch-to-deck-btn i {
-    width: 0.95rem !important;
-    height: 0.95rem !important;
-  }
-  /* Hide 'Hợp tác ngay' specifically on iPad Portrait to give full breathing room */
+  /* Hide action buttons (Trình chiếu Slide & Hợp tác ngay) on iPad Portrait for maximum breathing room */
+  header .header-actions,
+  header #switch-to-deck-btn,
   header .header-contact-btn {
     display: none !important;
   }
