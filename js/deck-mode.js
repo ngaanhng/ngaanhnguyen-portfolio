@@ -329,7 +329,7 @@ class DeckModeController {
                 </div>
                 <h3 class="text-base sm:text-lg md:text-xl font-black text-[#B8005A] tracking-normal uppercase">CHỨNG CHỈ ĐẠT ĐƯỢC</h3>
               </div>
-              <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3 py-1 rounded-full w-fit border border-pink-100 shadow-xs">2025</span>
+              <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3 py-1 rounded-full w-fit border border-pink-100 shadow-xs">2025, 2026</span>
             </div>
 
             <ul class="space-y-2.5 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-800 leading-snug mb-4">
@@ -381,8 +381,8 @@ class DeckModeController {
               <li class="flex items-start gap-2.5">
                 <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
                 <div>
-                  <a href="https://www.coursera.org/account/accomplishments/verify/PMPOB4O3BQKC" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
-                    <span>GenAI for Everyone</span>
+                  <a href="https://coursera.org/share/265b27d0634dba87bc1d741d7f212270" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                    <span>Google Ads for Beginners</span>
                     <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
                   </a>
                 </div>
@@ -394,7 +394,7 @@ class DeckModeController {
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🎓 Digital Marketing &amp; E-commerce</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">📊 MS PowerPoint</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🎨 AI Tools for Creativity</span>
-            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🤖 AI &amp; GenAI for Everyone</span>
+            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">📢 Google Ads</span>
           </div>
         </div>
       </div>
