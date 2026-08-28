@@ -425,7 +425,7 @@ class DeckModeController {
               </li>
               <li class="flex items-start gap-2.5">
                 <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
-                <div><strong class="font-black text-gray-900">Biết sử dụng các công cụ AI (AI video, AI hình ảnh, AI voice,...)</strong> trong sáng tạo nội dung.</div>
+                <div><strong class="font-black text-gray-900">Sử dụng tốt các công cụ AI:</strong> AI video, AI hình ảnh, AI voice,...</div>
               </li>
               <li class="flex items-start gap-2.5">
                 <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
