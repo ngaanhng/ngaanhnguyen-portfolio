@@ -290,9 +290,9 @@ class DeckModeController {
                   <span class="font-black text-sm sm:text-base md:text-[1.05rem] text-gray-900 leading-snug">ATOZ TRAVEL – TTS Truyền thông dự án đa phương tiện</span>
                   <span class="text-xs sm:text-sm font-bold text-pink-700 bg-white px-3 py-1 rounded-lg border border-pink-100 shadow-xs w-fit flex-shrink-0">03/2025 – 05/2025</span>
                 </div>
-                <p class="text-xs sm:text-sm md:text-[0.95rem] text-gray-700 leading-relaxed font-normal pt-0.5 text-justify">• Xây dựng chiến lược content, sản xuất video ngắn và truyền thông nội bộ. Đạt thành tựu <strong class="text-gray-900 font-bold">120K lượt xem</strong> (tăng trưởng 175%), tiếp cận ≈ 60K người dùng.</p>
-                <div class="pt-1.5 flex items-center">
-                  <a href="https://docs.google.com/spreadsheets/d/1bDtYDBPuQ2op-TI8iQnG9RPK2eaXbO3k/edit?usp=sharing&ouid=105355807124233674692&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-bold text-pink-700 hover:text-pink-900 hover:bg-pink-100/80 bg-white px-3 py-1 rounded-lg border border-pink-200 shadow-xs transition-all hover:scale-105"><i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-600"></i> <span>Xem minh chứng</span></a>
+                <div class="flex items-center justify-between gap-2 pt-0.5">
+                  <p class="text-xs sm:text-sm md:text-[0.95rem] text-gray-700 leading-relaxed font-normal text-justify">• Xây dựng chiến lược content, sản xuất video ngắn và truyền thông nội bộ. Đạt thành tựu <strong class="text-gray-900 font-bold">120K lượt xem</strong> (tăng trưởng 175%), tiếp cận ≈ 60K người dùng.</p>
+                  <a href="https://docs.google.com/spreadsheets/d/1bDtYDBPuQ2op-TI8iQnG9RPK2eaXbO3k/edit?usp=sharing&ouid=105355807124233674692&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="p-1.5 text-pink-700 hover:text-pink-900 hover:bg-pink-100 bg-white rounded-lg border border-pink-200 shadow-xs transition-all hover:scale-110 flex-shrink-0 inline-flex items-center justify-center cursor-pointer" title="Xem minh chứng kết quả (Google Sheets) ↗"><i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-600"></i></a>
                 </div>
               </div>
 
@@ -329,7 +329,7 @@ class DeckModeController {
                 </div>
                 <h3 class="text-base sm:text-lg md:text-xl font-black text-[#B8005A] tracking-normal uppercase">CHỨNG CHỈ ĐẠT ĐƯỢC</h3>
               </div>
-              <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3 py-1 rounded-full w-fit border border-pink-100 shadow-xs">Th.05/2025 – Th.06/2025</span>
+              <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3 py-1 rounded-full w-fit border border-pink-100 shadow-xs">2025</span>
             </div>
 
             <ul class="space-y-2.5 sm:space-y-3 text-xs sm:text-sm md:text-base text-gray-800 leading-snug mb-4">
