@@ -316,7 +316,7 @@ class DeckModeController {
             <span class="text-xs font-extrabold uppercase tracking-widest text-pink-600">MY CERTIFICATIONS</span>
             <h2 class="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 tracking-tight">Giấy phép &amp; Chứng nhận</h2>
           </div>
-          <span class="text-xs sm:text-sm text-gray-500 font-medium max-w-sm hidden sm:block text-right">Chứng chỉ chuyên môn quốc tế &amp; Kỹ năng số</span>
+          <span class="text-xs sm:text-sm text-gray-500 font-medium max-w-sm hidden sm:block text-right">Chứng chỉ chuyên môn &amp; Kỹ năng số</span>
         </div>
 
         <!-- Single Card White with Prominent Pink Border -->
@@ -391,7 +391,7 @@ class DeckModeController {
           </div>
 
           <div class="flex flex-wrap gap-2 sm:gap-2.5 pt-3.5 border-t border-pink-100 text-xs sm:text-sm font-bold text-pink-700">
-            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🎓 Digital Marketing &amp; E-commerce</span>
+            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🌐 Digital Marketing &amp; E-commerce</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">📊 MS PowerPoint</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🎨 AI Tools for Creativity</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">📢 Google Ads</span>
@@ -425,11 +425,11 @@ class DeckModeController {
               </li>
               <li class="flex items-start gap-2.5">
                 <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
-                <div><strong class="font-black text-gray-900">Sử dụng tốt các công cụ AI:</strong> AI video, AI hình ảnh, AI voice,...</div>
+                <div><strong class="font-black text-gray-900">Sáng tạo nội dung:</strong> Viết kịch bản, Content.</div>
               </li>
               <li class="flex items-start gap-2.5">
                 <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
-                <div><strong class="font-black text-gray-900">Sáng tạo nội dung:</strong> Viết kịch bản, Content.</div>
+                <div><strong class="font-black text-gray-900">Sử dụng tốt các công cụ AI:</strong> AI video, AI hình ảnh, AI voice,...</div>
               </li>
               <li class="flex items-start gap-2.5">
                 <span class="text-pink-600 font-black text-base md:text-lg leading-none mt-0.5">•</span>
@@ -439,8 +439,8 @@ class DeckModeController {
           </div>
           <div class="flex flex-wrap gap-2 sm:gap-2.5 pt-3.5 border-t border-pink-100 text-xs sm:text-sm font-bold text-pink-700">
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">📷 Nhiếp Ảnh &amp; Quay Phim</span>
-            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🤖 AI Video &amp; AI Voice</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">📝 Viết Kịch Bản &amp; Content</span>
+            <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🤖 AI Video &amp; AI Voice</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">🛠️ Canva &amp; CapCut</span>
             <span class="px-3 py-1.5 bg-pink-50 rounded-xl border border-pink-200/80 shadow-xs">💼 Google Workspace &amp; MS 365</span>
           </div>
