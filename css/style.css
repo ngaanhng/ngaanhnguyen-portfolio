@@ -579,6 +579,80 @@ main {
     white-space: nowrap !important;
     text-transform: uppercase !important;
   }
+
+  /* Dedicated iPad Portrait CV Header Layout matching desired single-line alignment with optimal readable font sizes */
+  .cv-card-container {
+    padding: 1.75rem 2rem !important;
+  }
+  .cv-header-row {
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    padding-bottom: 1.75rem !important;
+  }
+  .cv-avatar-wrapper {
+    width: 7.25rem !important;
+    height: 9.6rem !important;
+    min-width: 7.25rem !important;
+    max-width: 7.25rem !important;
+    flex-shrink: 0 !important;
+    border-radius: 1.15rem !important;
+  }
+  .cv-info-wrapper {
+    text-align: left !important;
+    flex: 1 1 0% !important;
+    min-width: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+  .cv-name-heading {
+    font-size: clamp(2.35rem, 3.8vw, 3.25rem) !important;
+    line-height: 1.05 !important;
+    white-space: nowrap !important;
+    letter-spacing: -0.02em !important;
+    font-weight: 900 !important;
+    margin: 0 !important;
+  }
+  .cv-roles-box {
+    padding-top: 0.2rem !important;
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.35rem !important;
+  }
+  .cv-roles-box p {
+    font-size: clamp(0.96rem, 1.6vw, 1.25rem) !important;
+    line-height: 1.3 !important;
+    white-space: nowrap !important;
+    font-weight: 800 !important;
+    letter-spacing: 0.01em !important;
+    margin: 0 !important;
+  }
+  .cv-contact-list {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: clamp(0.9rem, 1.8vw, 1.85rem) !important;
+    padding-top: 0.4rem !important;
+    margin: 0 !important;
+  }
+  .cv-contact-list span {
+    font-size: clamp(0.85rem, 1.35vw, 1.02rem) !important;
+    font-weight: 700 !important;
+    white-space: nowrap !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.45rem !important;
+  }
+  .cv-contact-list span i,
+  .cv-contact-list span svg {
+    width: 1.15rem !important;
+    height: 1.15rem !important;
+    flex-shrink: 0 !important;
+  }
 }
 
 /* ==========================================================================
