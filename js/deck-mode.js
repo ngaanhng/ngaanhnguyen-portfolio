@@ -251,10 +251,7 @@ class DeckModeController {
               </div>
               <div class="w-full">
                 <h3 class="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 leading-tight">NGUYỄN NGA ANH</h3>
-                <div class="text-xs sm:text-sm md:text-[0.92rem] font-black text-[#B8005A] uppercase tracking-wide mt-1.5 leading-snug space-y-1">
-                  <p>THỰC TẬP SINH TRUYỀN THÔNG / THỰC TẬP SINH MARKETING</p>
-                  <p>COMMUNICATIONS INTERN / MARKETING INTERN</p>
-                </div>
+                <p class="text-xs sm:text-sm md:text-[0.95rem] font-black text-[#B8005A] uppercase tracking-wide mt-1.5 leading-snug">THỰC TẬP SINH TRUYỀN THÔNG / THỰC TẬP SINH MARKETING</p>
               </div>
               <div class="w-full text-xs sm:text-sm text-gray-700 space-y-2.5 font-bold pt-1 text-left">
                 <div class="flex items-center gap-2.5 flex-nowrap">
