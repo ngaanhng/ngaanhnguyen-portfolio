@@ -239,7 +239,7 @@ class DeckModeController {
             <span class="w-3 h-3 rounded-full bg-pink-600"></span>
             <span class="font-black text-gray-900 text-sm sm:text-base md:text-lg uppercase tracking-wider">My Curriculum Vitae (CV)</span>
           </div>
-          <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3.5 py-1.5 rounded-full border border-pink-100 shadow-xs">Thực Tập Sinh Truyền Thông</span>
+          <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3.5 py-1.5 rounded-full border border-pink-100 shadow-xs">Thực Tập Sinh Truyền Thông / Thực Tập Sinh Marketing</span>
         </div>
 
         <div class="my-auto bg-white rounded-3xl p-5 sm:p-6 md:p-8 border-2 border-pink-100 shadow-xl overflow-y-auto max-h-[76vh]">
@@ -251,7 +251,10 @@ class DeckModeController {
               </div>
               <div class="w-full">
                 <h3 class="text-xl sm:text-2xl md:text-3xl font-black text-gray-900 leading-tight">NGUYỄN NGA ANH</h3>
-                <p class="text-xs sm:text-sm md:text-[0.95rem] lg:text-base font-black text-[#B8005A] uppercase tracking-wide mt-1.5 leading-snug">THỰC TẬP SINH TRUYỀN THÔNG (COMMUNICATIONS INTERN)</p>
+                <div class="text-xs sm:text-sm md:text-[0.92rem] font-black text-[#B8005A] uppercase tracking-wide mt-1.5 leading-snug space-y-1">
+                  <p>THỰC TẬP SINH TRUYỀN THÔNG / THỰC TẬP SINH MARKETING</p>
+                  <p>COMMUNICATIONS INTERN / MARKETING INTERN</p>
+                </div>
               </div>
               <div class="w-full text-xs sm:text-sm text-gray-700 space-y-2.5 font-bold pt-1 text-left">
                 <div class="flex items-center gap-2.5 flex-nowrap">
