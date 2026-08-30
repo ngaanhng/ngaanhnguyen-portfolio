@@ -206,7 +206,7 @@ class DeckModeController {
               Những trải nghiệm này giúp em từng bước hoàn thiện các kỹ năng cơ bản về sản xuất nội dung đa nền tảng (bao gồm <strong class="text-gray-900 font-bold">thiết kế, dựng video, sáng tạo nội dung và ứng dụng công cụ AI</strong>), quản lý truyền thông số cũng như hỗ trợ tổ chức sự kiện.
             </p>
             <p class="p-3 sm:p-3.5 bg-pink-50/80 border-l-4 border-pink-600 rounded-r-2xl text-pink-950 font-medium italic text-xs sm:text-sm leading-relaxed shadow-xs text-justify">
-              "Với tinh thần chủ động và khả năng thích ứng nhanh, em mong muốn được ứng tuyển vào vị trí Thực tập sinh Truyền thông để tiếp tục rèn luyện kỹ năng chuyên môn và đóng góp tích cực vào các hoạt động truyền thông – marketing của doanh nghiệp."
+              "Với tinh thần chủ động và khả năng thích ứng nhanh, em mong muốn được ứng tuyển vào vị trí Thực tập sinh Truyền thông/Marketing để tiếp tục rèn luyện kỹ năng chuyên môn và đóng góp tích cực vào các hoạt động truyền thông – marketing của doanh nghiệp."
             </p>
           </div>
         </div>
