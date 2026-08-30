@@ -490,7 +490,7 @@ class DeckModeController {
             <div class="inline-block px-5 py-1 border-2 border-white rounded-full text-xs font-bold uppercase mb-3">
               TVC Commercial
             </div>
-            <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">TVC MILO</h3>
+            <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">TVC "MILO"</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
               <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor</span></p>
@@ -531,7 +531,7 @@ class DeckModeController {
             <div class="inline-block px-5 py-1 border-2 border-white rounded-full text-xs font-bold uppercase mb-3">
               TALKSHOW
             </div>
-            <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">TALKSHOW NHÀ TRUYỀN THÔNG HỌC TÂM LÝ</h3>
+            <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">TALKSHOW: NHÀ TRUYỀN THÔNG HỌC TÂM LÝ</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
               <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor, Cameraman</span></p>
@@ -599,7 +599,7 @@ class DeckModeController {
       <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="9">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 4 / 9</span>
-          <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2025</span>
+          <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
         </div>
 
         <div class="my-auto bg-[#B8005A] rounded-[32px] md:rounded-[36px] p-6 md:p-8 lg:p-10 text-white relative shadow-2xl flex flex-col md:flex-row gap-6 md:gap-8 items-center justify-between min-h-[64%] max-h-[72%]">

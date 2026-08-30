@@ -12,7 +12,7 @@ const PROJECTS_DATA = [
   {
     id: "project-1",
     num: "Project - 1",
-    title: "TVC MILO",
+    title: 'TVC "MILO"',
     category: "TVC",
     categoryLabel: "Commercial / TVC Video",
     shortDesc: "Producing a TVC for Milo as a course project involved dynamic visual editing with speed ramping and color grading, as well as designing a high-impact audio, energetic BGM, and precise Voice-Over audio ducking.",

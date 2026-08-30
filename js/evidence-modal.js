@@ -146,7 +146,7 @@ class EvidenceModal {
               <iframe 
                 src="${p.liveAppUrl}" 
                 class="w-full h-full border-0" 
-                title="${p.title}"
+                title="${(p.title || '').replace(/"/g, '&quot;')}"
                 loading="lazy"
                 allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media">
               </iframe>

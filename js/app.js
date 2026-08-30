@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="project-card bg-white rounded-3xl overflow-hidden border border-pink-100 shadow-xl flex flex-col group transition-all duration-300 hover:border-pink-300">
         <!-- Card Header / Poster -->
         <div class="relative aspect-video bg-gray-900 overflow-hidden cursor-pointer open-project-trigger" data-project-id="${p.id}">
-          <img src="${p.previewImage || 'assets/images/milo_preview.svg'}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" alt="${p.title}">
+          <img src="${p.previewImage || 'assets/images/milo_preview.svg'}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" alt="${(p.title || '').replace(/"/g, '&quot;')}">
           
           <!-- Category & Tag Badges -->
           <div class="absolute top-3 left-3 flex items-center gap-2">
