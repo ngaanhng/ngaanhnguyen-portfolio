@@ -575,7 +575,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">PHIM TÀI LIỆU: KHÁM PHÁ NGHỆ THUẬT HÁT BỘI</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Lead Video Editor</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut Pro, CapCut</span></p>
             </div>
 
@@ -599,7 +599,7 @@ class DeckModeController {
       <div class="deck-slide w-full h-full flex flex-col justify-between bg-white p-6 md:p-10 relative overflow-hidden" data-slide="9">
         <div class="flex justify-between items-center px-4">
           <span class="text-xs font-bold text-pink-600 uppercase">Project 4 / 9</span>
-          <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2026</span>
+          <span class="font-bold text-[#B8005A] text-base md:text-lg">Nga Anh Nguyen • 2025</span>
         </div>
 
         <div class="my-auto bg-[#B8005A] rounded-[32px] md:rounded-[36px] p-6 md:p-8 lg:p-10 text-white relative shadow-2xl flex flex-col md:flex-row gap-6 md:gap-8 items-center justify-between min-h-[64%] max-h-[72%]">
@@ -698,7 +698,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">TALKSHOW: GÓC NHÌN SÁNG TẠO</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Lead Video Editor &amp; Colorist</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor &amp; Colorist</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut Pro, CapCut, Google Flow, Canva</span></p>
             </div>
 
@@ -780,7 +780,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug line-clamp-2">INTERVIEW: PHỎNG VẤN KHÁCH HÀNG MỤC TIÊU (LITTLE SPOON)</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Lead Video Editor &amp; Content Producer, Cameraman</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor &amp; Content Producer, Cameraman</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut, Canva</span></p>
             </div>
 
