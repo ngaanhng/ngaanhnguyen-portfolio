@@ -575,7 +575,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">PHIM TÀI LIỆU: KHÁM PHÁ NGHỆ THUẬT HÁT BỘI</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Lead Video Editor</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut Pro, CapCut</span></p>
             </div>
 
@@ -698,7 +698,7 @@ class DeckModeController {
             <h3 class="text-base md:text-lg font-black mb-2.5 uppercase tracking-wide min-h-[2.5rem] flex items-center leading-snug">TALKSHOW: GÓC NHÌN SÁNG TẠO</h3>
             
             <div class="space-y-1 text-xs text-pink-100 mb-4 bg-black/15 p-2.5 sm:p-3 rounded-xl border border-white/10 w-fit min-h-[52px] flex flex-col justify-center">
-              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Main Video Editor &amp; Colorist</span></p>
+              <p><span class="text-pink-200 font-bold">Vai trò đảm nhiệm:</span> <span class="text-white font-semibold">Lead Video Editor &amp; Colorist</span></p>
               <p><span class="text-pink-200 font-bold">Công cụ sử dụng:</span> <span class="text-white font-semibold">CapCut Pro, CapCut, Google Flow, Canva</span></p>
             </div>
 
