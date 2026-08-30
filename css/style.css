@@ -977,3 +977,14 @@ main {
   letter-spacing: 0.03em;
   text-shadow: 0 1px 1px rgba(184, 0, 90, 0.08);
 }
+
+/* Floating Back to Top Button - Exclusive to Laptop & PC (Screens >= 1025px) */
+#back-to-top-btn {
+  display: none !important;
+}
+
+@media (min-width: 1025px) {
+  #back-to-top-btn {
+    display: flex !important;
+  }
+}
