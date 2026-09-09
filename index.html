@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no, email=no, address=no">
+  <title>Nguyễn Nga Anh | Multimedia Communications Portfolio &amp; Evidence (2026)</title>
+  <meta name="description" content="Portfolio &amp; Video Production Evidence Showcase của Nguyễn Nga Anh - Sinh viên Truyền thông Đa phương tiện Đại học Văn Lang. Chuyên môn: Dựng phim, Chỉnh màu, Motion Graphics, Zalo Mini App.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Ephesis&family=Great+Vibes&family=MonteCarlo&family=Playball&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#FDF2F8',
+              100: '#FCE7F3',
+              200: '#FBCFE8',
+              300: '#F472B6',
+              400: '#EC4899',
+              500: '#DB2777',
+              600: '#BE185D',
+              700: '#B8005A',
+              800: '#9D174D',
+              900: '#831843',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', 'sans-serif'],
+            script: ['Caveat', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css?v=16.7">
+</head>
+<body class="bg-[#FAFAFB] text-gray-900 pb-32">
+
+  <!-- MOBILE DEVICE SCREEN BLOCKER (Only displays on iPhone & Samsung / Phones < 768px; iPad, Laptop & PC can view normally) -->
+  <div id="mobile-device-blocker" class="fixed inset-0 z-[999999] bg-gradient-to-b from-[#B8005A] via-[#9D174D] to-[#831843] text-white flex flex-col items-center justify-between p-6 sm:p-8 text-center md:hidden overflow-y-auto selection:bg-pink-400">
+    <!-- Top Identity -->
+    <div class="w-full flex items-center justify-center pt-2">
+      <div class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-xs font-bold text-pink-200 uppercase tracking-widest">NGA ANH'S PORTFOLIO</span>
+      </div>
+    </div>
+
+    <!-- Center Message Body -->
+    <div class="my-auto py-6 max-w-sm space-y-5">
+      <!-- Animated Spinning Flower Icon -->
+      <div class="w-24 h-24 mx-auto relative flex items-center justify-center">
+        <div class="absolute inset-0 bg-white/20 rounded-full blur-xl animate-pulse"></div>
+        <img src="assets/images/flower.svg" class="w-full h-full object-contain flower-spin-slow relative z-10 drop-shadow-2xl" alt="Flower">
+      </div>
+
+      <!-- Main Headline -->
+      <div class="space-y-1.5">
+        <h1 class="text-2xl font-black tracking-tight text-white uppercase drop-shadow-sm">NGUYỄN NGA ANH</h1>
+        <p class="text-xs font-bold text-pink-200 tracking-wider uppercase">ỨNG TUYỂN THỰC TẬP SINH TRUYỀN THÔNG / MARKETING</p>
+      </div>
+
+      <!-- Compatible Devices Badge Card -->
+      <div class="bg-black/30 backdrop-blur-md rounded-2xl p-4 border border-white/20 shadow-xl space-y-3">
+        <div class="flex items-center justify-center gap-4">
+          <div class="flex flex-col items-center gap-1.5 text-pink-100">
+            <div class="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center">
+              <i data-lucide="laptop" class="w-5 h-5 text-white"></i>
+            </div>
+            <span class="text-[11px] font-extrabold uppercase">Laptop</span>
+          </div>
+
+          <div class="w-px h-8 bg-white/20"></div>
+
+          <div class="flex flex-col items-center gap-1.5 text-pink-100">
+            <div class="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center">
+              <i data-lucide="monitor" class="w-5 h-5 text-white"></i>
+            </div>
+            <span class="text-[11px] font-extrabold uppercase">PC</span>
+          </div>
+
+          <div class="w-px h-8 bg-white/20"></div>
+
+          <div class="flex flex-col items-center gap-1.5 text-pink-100">
+            <div class="w-10 h-10 rounded-xl bg-white/15 flex items-center justify-center">
+              <i data-lucide="tablet" class="w-5 h-5 text-white"></i>
+            </div>
+            <span class="text-[11px] font-extrabold uppercase">iPad / Tablet</span>
+          </div>
+        </div>
+
+        <p class="text-xs sm:text-sm text-pink-100 font-medium leading-relaxed pt-2 border-t border-white/15">
+          Vui lòng mở trang web này bằng <strong>Laptop, PC hoặc iPad</strong> để có trải nghiệm xem Portfolio tốt nhất.
+        </p>
+      </div>
+
+      <!-- Copy URL Button -->
+      <button onclick="navigator.clipboard.writeText(window.location.href); alert('Đã sao chép liên kết Portfolio! Bạn hãy dán liên kết này vào trình duyệt trên Laptop, PC hoặc iPad nhé.');" class="w-full py-3 px-5 bg-white text-[#B8005A] hover:bg-pink-50 rounded-2xl text-xs font-black tracking-wide flex items-center justify-center gap-2 shadow-2xl transition-all active:scale-95 cursor-pointer">
+        <i data-lucide="copy" class="w-4 h-4 text-[#B8005A]"></i>
+        <span>Sao chép liên kết để mở trên Laptop / iPad</span>
+      </button>
+    </div>
+
+    <!-- Quick Contact Footer (Email only with Contact prefix) -->
+    <div class="w-full pt-4 border-t border-white/20 flex items-center justify-center text-xs text-pink-100">
+      <a href="mailto:nguyenngaanh6704@gmail.com" class="flex items-center gap-2 hover:text-white font-medium bg-white/10 px-4 py-2 rounded-full border border-white/15 backdrop-blur-sm shadow-xs transition-all">
+        <span class="font-bold text-pink-200">Contact:</span>
+        <i data-lucide="mail" class="w-4 h-4 text-pink-300"></i>
+        <span class="font-bold underline underline-offset-2">nguyenngaanh6704@gmail.com</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Top Navigation Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-pink-100 transition-all w-full">
+    <div class="max-w-7xl mx-auto header-inner-container px-3 sm:px-4 md:px-4 lg:px-8 xl:px-8 h-16 sm:h-18 md:h-18 lg:h-20 flex items-center justify-between gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-4 xl:gap-6">
+      <!-- Logo & Identity -->
+      <a href="#" class="flex items-center gap-1.5 sm:gap-2 md:gap-2 lg:gap-3 group flex-shrink-0">
+        <div class="brand-logo-box w-7 h-7 sm:w-8 sm:h-8 md:w-8 md:h-8 lg:w-9 lg:h-9 xl:w-10 xl:h-10 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-pink-700 to-rose-500 flex items-center justify-center text-white shadow-md group-hover:scale-105 transition-transform flex-shrink-0">
+          <img src="assets/images/flower.svg" class="brand-logo-img w-4 h-4 sm:w-5 sm:h-5 md:w-4.5 md:h-4.5 lg:w-5.5 lg:h-5.5 xl:w-6 xl:h-6 object-contain" alt="Logo">
+        </div>
+        <div class="flex-shrink-0">
+          <span class="brand-name font-black text-gray-900 text-xs sm:text-sm md:text-[13px] lg:text-[15px] xl:text-lg tracking-tight block leading-tight whitespace-nowrap">Nga Anh Nguyen</span>
+          <span class="brand-subtitle text-[7px] sm:text-[8.5px] md:text-[7.5px] lg:text-[9px] xl:text-[11px] font-bold text-pink-600 tracking-tight sm:tracking-normal lg:tracking-wider uppercase block whitespace-nowrap">MULTIMEDIA COMMUNICATIONS STUDENT</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="hidden md:flex items-center gap-1 md:gap-1.5 lg:gap-3.5 xl:gap-6 text-[10px] md:text-[10.5px] lg:text-[12.5px] xl:text-sm font-bold text-gray-600 flex-shrink-0">
+        <a href="#about" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Giới thiệu</a>
+        <a href="#cv" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">CV &amp; Kinh nghiệm</a>
+        <a href="#certifications" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Chứng chỉ</a>
+        <a href="#skills" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Kỹ năng</a>
+        <a href="#projects" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Dự án đã làm</a>
+        <a href="#contact" class="px-1 py-1 whitespace-nowrap hover:text-pink-600 transition-colors">Liên hệ</a>
+      </nav>
+
+      <!-- Action: Switch to 9-Slide Deck Mode -->
+      <div class="header-actions flex items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2.5 xl:gap-3 flex-shrink-0">
+        <button id="switch-to-deck-btn" class="px-2 py-1.5 sm:px-3 sm:py-2 md:px-2.5 md:py-1.5 lg:px-3.5 lg:py-2 xl:px-4 xl:py-2.5 bg-pink-50 hover:bg-pink-100 text-pink-700 rounded-full font-bold text-[10px] sm:text-xs md:text-[10.5px] lg:text-xs border border-pink-200 shadow-xs flex items-center gap-1 sm:gap-1.5 lg:gap-2 transition-all hover:scale-105 whitespace-nowrap">
+          <i data-lucide="presentation" class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-pink-600 flex-shrink-0"></i>
+          <span class="whitespace-nowrap"><span class="hidden 2xl:inline">Chế độ </span>Trình chiếu Slide</span>
+        </button>
+
+        <a href="#contact" class="header-contact-btn inline-flex px-2.5 py-1.5 sm:px-3.5 sm:py-2 md:px-3 md:py-1.5 lg:px-4 lg:py-2 xl:px-5 xl:py-2.5 bg-gradient-to-r from-pink-700 to-rose-600 hover:from-pink-800 hover:to-rose-700 text-white rounded-full font-extrabold text-[10px] sm:text-xs md:text-[10.5px] lg:text-xs shadow-xs transition-all whitespace-nowrap">
+          Hợp tác ngay
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 space-y-16">
+
+    <!-- HERO SECTION: Slide 1 Replication & Modern Web Portal -->
+    <section class="relative">
+      <div class="folder-tab-card p-8 md:p-14 relative overflow-hidden">
+        <!-- 4x2 Dot Matrix Header -->
+        <div class="absolute top-8 left-10 dot-grid-4x2">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-10 relative z-10 pt-6">
+          <!-- Left: Big PORTFOLIO Title & Signature Name -->
+          <div class="max-w-2xl text-white">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 bg-white/15 backdrop-blur-md rounded-full text-xs font-bold text-pink-100 border border-white/20 mb-3">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              Multimedia Communications Student • Class of 2027
+            </div>
+
+            <!-- Calligraphy Signature Name (1 Single Line, Crystal-Sharp) -->
+            <div class="select-none leading-none pt-1 pb-0 overflow-visible">
+              <span class="font-signature text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[5.2rem] text-white block whitespace-nowrap drop-shadow-lg -rotate-1 pl-1">
+                Nguyễn Nga Anh
+              </span>
+            </div>
+
+            <!-- Uppercase PORTFOLIO Title - Snug fit without gap -->
+            <h1 class="port-folio-title select-none drop-shadow-md uppercase -mt-1 sm:-mt-2 md:-mt-3">
+              <span class="word-port uppercase">PORT</span><span class="word-folio uppercase">FOLIO</span>
+            </h1>
+          </div>
+
+          <!-- Right: Signature Flower -->
+          <div class="relative flex flex-col items-center">
+            <div class="w-48 h-48 sm:w-64 sm:h-64 relative">
+              <img src="assets/images/flower.svg" class="w-full h-full object-contain flower-spin-slow flower-glow" alt="Signature Flower">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME SECTION: Slide 2 Replication -->
+    <section id="about" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+      <!-- Left Profile & Biography -->
+      <div class="lg:col-span-7 bg-white rounded-3xl p-8 md:p-12 border border-pink-100 shadow-xl flex flex-col justify-between">
+        <div>
+          <!-- Section Header: Giới Thiệu Bản Thân (Enlarged) -->
+          <div class="flex items-center gap-3 mb-5">
+            <span class="w-10 sm:w-12 h-1.5 bg-pink-600 rounded-full"></span>
+            <h3 class="text-base sm:text-lg md:text-xl font-black uppercase tracking-wider text-[#B8005A]">GIỚI THIỆU BẢN THÂN</h3>
+          </div>
+
+          <!-- Hello, my name is + Logo aligned horizontally -->
+          <div class="flex items-center justify-between gap-4 mb-3 sm:mb-4">
+            <p class="text-base sm:text-lg md:text-xl text-gray-500 font-semibold tracking-wide">Hello, my name is</p>
+            <div class="h-6 sm:h-7 md:h-8 flex items-center">
+              <img src="assets/images/vlu_logo.png" class="h-full object-contain" alt="Van Lang University Logo">
+            </div>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-[#B8005A] tracking-tight mb-6 leading-tight pt-1.5">NGUYỄN NGA ANH</h2>
+
+          <div class="space-y-4 text-xs md:text-sm text-gray-900 leading-relaxed text-justify">
+            <p class="text-justify">
+              Là <strong class="font-bold text-gray-900">sinh viên năm cuối ngành Truyền thông Đa phương tiện</strong> tại <strong class="font-bold text-gray-900">Trường Đại học Văn Lang</strong>, em đã tích lũy được kinh nghiệm thực tế về làm việc nhóm và triển khai dự án thông qua nhiều bài tập, đồ án môn học.
+            </p>
+            <p class="text-justify">
+              Những trải nghiệm này giúp em từng bước hoàn thiện các kỹ năng cơ bản về sản xuất nội dung đa nền tảng (bao gồm <strong class="font-bold text-gray-900">thiết kế, dựng video, sáng tạo nội dung và ứng dụng công cụ AI</strong>), quản lý truyền thông số cũng như hỗ trợ tổ chức sự kiện.
+            </p>
+            <p class="p-4 bg-pink-50/70 border-l-4 border-pink-600 rounded-r-xl text-pink-900 font-medium italic text-justify">
+              "Với tinh thần chủ động và khả năng thích ứng nhanh, em mong muốn được ứng tuyển vào vị trí Thực tập sinh Truyền thông/Marketing để tiếp tục rèn luyện kỹ năng chuyên môn và đóng góp tích cực vào các hoạt động truyền thông – marketing của doanh nghiệp."
+            </p>
+          </div>
+        </div>
+
+        <!-- Quick Contacts Bar -->
+        <div class="mt-8 pt-6 border-t border-pink-100 flex flex-wrap items-center justify-between gap-4 text-xs font-semibold">
+          <div class="flex items-center gap-2 text-gray-700 cursor-pointer" onclick="copyContactInfo('0962468650', 'Đã chép số điện thoại!')">
+            <i data-lucide="phone" class="w-4 h-4 text-pink-600"></i>
+            <span>0962468650</span>
+          </div>
+          <div class="flex items-center gap-2 text-gray-700 cursor-pointer" onclick="copyContactInfo('nguyenngaanh6704@gmail.com', 'Đã chép địa chỉ email!')">
+            <i data-lucide="mail" class="w-4 h-4 text-pink-600"></i>
+            <span>nguyenngaanh6704@gmail.com</span>
+          </div>
+          <div class="flex items-center gap-2 text-gray-700">
+            <i data-lucide="map-pin" class="w-4 h-4 text-pink-600"></i>
+            <span>TP. Hồ Chí Minh</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Berry Pink Folder Card Matching Slide 2 -->
+      <div class="lg:col-span-5 bg-[#B8005A] rounded-3xl p-8 md:p-12 text-white shadow-xl flex flex-col justify-between relative overflow-hidden">
+        <div class="absolute -right-8 -bottom-8 w-40 h-40 dot-matrix-white opacity-25"></div>
+
+        <div class="text-right pt-6 sm:pt-10 md:pt-14">
+          <h2 class="text-6xl sm:text-7xl md:text-8xl lg:text-[5.5rem] xl:text-[6.2rem] font-black tracking-tight leading-[0.92] drop-shadow-lg uppercase">
+            ABOUT<br>ME
+          </h2>
+        </div>
+
+        <div class="flex items-end justify-between mt-12 relative z-10">
+          <div class="dot-grid-4x2">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="w-28 h-28 md:w-36 md:h-36">
+            <img src="assets/images/flower.svg" class="w-full h-full object-contain flower-spin-slow" alt="Flower">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRICULUM VITAE (CV) SECTION -->
+    <section id="cv" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-pink-600">My Curriculum Vitae (CV)</span>
+          <h2 class="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mt-1">Hồ sơ năng lực &amp; Kinh nghiệm</h2>
+        </div>
+      </div>
+
+      <!-- Main CV Document Container -->
+      <div class="bg-white rounded-3xl p-6 sm:p-10 md:p-12 border border-pink-100 shadow-xl space-y-10 cv-card-container">
+        
+        <!-- CV Header: Avatar + Title + Contact (Vertically Centered) -->
+        <div class="cv-header-row flex flex-col sm:flex-row items-center gap-6 sm:gap-8 pb-8 border-b border-gray-100">
+          <div class="cv-avatar-wrapper w-32 h-40 sm:w-36 sm:h-48 rounded-2xl overflow-hidden shadow-lg border-2 border-pink-200 flex-shrink-0 bg-gray-100">
+            <img src="assets/images/avatar.jpg" class="w-full h-full object-cover object-top" alt="Nguyễn Nga Anh Ảnh Thẻ">
+          </div>
+          
+          <div class="cv-info-wrapper flex flex-col justify-center gap-3 sm:gap-3.5 text-center sm:text-left flex-grow">
+            <h3 class="cv-name-heading text-3xl sm:text-5xl md:text-6xl font-black text-gray-900 tracking-tight leading-none">NGUYỄN NGA ANH</h3>
+            <p class="cv-role-title text-base sm:text-xl md:text-2xl lg:text-[1.55rem] font-extrabold text-[#B8005A] tracking-wide uppercase leading-tight">THỰC TẬP SINH TRUYỀN THÔNG / THỰC TẬP SINH MARKETING</p>
+            <div class="cv-contact-list flex flex-wrap items-center justify-center sm:justify-start gap-x-8 gap-y-3 text-sm sm:text-base md:text-lg text-gray-700 font-bold">
+              <span class="flex items-center gap-2"><i data-lucide="map-pin" class="w-5 h-5 text-pink-600"></i> TP. HỒ CHÍ MINH</span>
+              <span class="flex items-center gap-2"><i data-lucide="mail" class="w-5 h-5 text-pink-600"></i> nguyenngaanh6704@gmail.com</span>
+              <span class="flex items-center gap-2"><i data-lucide="phone" class="w-5 h-5 text-pink-600"></i> 0962 468 650</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1. GIỚI THIỆU -->
+        <div class="space-y-3.5">
+          <div class="flex items-center gap-3">
+            <span class="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-pink-100 flex items-center justify-center flex-shrink-0 shadow-xs">
+              <span class="w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full bg-pink-600"></span>
+            </span>
+            <h4 class="text-base sm:text-lg md:text-xl font-black uppercase tracking-wider text-gray-900">Giới Thiệu</h4>
+          </div>
+          <p class="text-sm sm:text-base md:text-[1.05rem] text-gray-700 leading-relaxed pl-4 border-l-3 border-pink-300 text-justify">
+            Là sinh viên năm cuối ngành Truyền thông Đa phương tiện - trường Đại học Văn Lang, em đã có cơ hội tích lũy kinh nghiệm làm việc nhóm và thực thi qua chuỗi dự án môn học. Trải nghiệm này giúp em tích lũy kỹ năng cơ bản về quy trình sản xuất nội dung đa định dạng (thiết kế, dựng video, viết bài, ứng dụng AI), quản lý truyền thông số và hỗ trợ tổ chức sự kiện. Với tinh thần chủ động và khả năng thích ứng linh hoạt, em mong muốn tìm kiếm cơ hội ở vị trí thực tập sinh để tiếp tục học hỏi, phát triển kỹ năng chuyên môn và đóng góp tích cực vào các hoạt động truyền thông – marketing của doanh nghiệp.
+          </p>
+        </div>
+
+        <!-- 2. KINH NGHIỆM -->
+        <div class="space-y-6 sm:space-y-7">
+          <div class="flex items-center gap-3">
+            <span class="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-pink-100 flex items-center justify-center flex-shrink-0 shadow-xs">
+              <span class="w-3 h-3 sm:w-3.5 sm:h-3.5 rounded-full bg-pink-600"></span>
+            </span>
+            <h4 class="text-base sm:text-lg md:text-xl font-black uppercase tracking-wider text-gray-900">Kinh Nghiệm</h4>
+          </div>
+
+          <div class="space-y-9 pl-3 sm:pl-5 border-l-2 border-pink-100">
+            
+            <!-- Job 1: TRƯỜNG ĐẠI HỌC VĂN LANG - CTV TELE Tuyển sinh (DOT: SMALL - PERFECTLY CENTERED) -->
+            <div class="space-y-2.5 relative pl-4">
+              <span class="absolute -left-[18px] sm:-left-[26px] top-[6px] w-2.5 h-2.5 rounded-full bg-pink-500 ring-4 ring-white"></span>
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+                <h5 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-900 leading-tight">TRƯỜNG ĐẠI HỌC VĂN LANG</h5>
+                <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3.5 py-1 rounded-full w-fit border border-pink-100">Th.06/2026 – Th.07/2026</span>
+              </div>
+              <p class="text-sm sm:text-base font-bold text-[#B8005A]">CTV - TELE Tuyển sinh VLU</p>
+              <ul class="list-disc list-inside space-y-2 text-sm sm:text-base text-gray-700 pt-1 leading-relaxed text-justify">
+                <li>Thực hiện trung bình 50 cuộc gọi/ngày theo kịch bản đến học sinh THPT và Phụ huynh nhằm tư vấn phương thức xét tuyển và đồng hành hỗ trợ thí sinh hoàn thiện hồ sơ đăng ký vào VLU.</li>
+                <li>Phân loại và cập nhật chính xác thông tin, mức độ quan tâm và trạng thái nguyện vọng (Quan tâm sâu / Đã chốt ngành / Cần hỗ trợ nộp hồ sơ) của các thí sinh lên hệ thống CRM của trường.</li>
+              </ul>
+            </div>
+
+            <!-- Job 2: CÔNG TY CỔ PHẦN DU LỊCH ATOZ TRAVEL (DOT: SMALL - PERFECTLY CENTERED) -->
+            <div class="space-y-4 relative pl-4">
+              <span class="absolute -left-[18px] sm:-left-[26px] top-[6px] w-2.5 h-2.5 rounded-full bg-pink-500 ring-4 ring-white"></span>
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+                <h5 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-900 leading-tight">CÔNG TY CỔ PHẦN DU LỊCH ATOZ TRAVEL</h5>
+                <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3.5 py-1 rounded-full w-fit border border-pink-100">Th.03/2025 – Th.05/2025</span>
+              </div>
+              <p class="text-sm sm:text-base font-bold text-[#B8005A]">TTS Truyền thông dự án đa phương tiện</p>
+
+              <!-- Nested Subsections -->
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1.5">
+                <div class="p-4 sm:p-5 rounded-2xl bg-pink-50/60 border border-pink-100 space-y-2.5">
+                  <h6 class="font-extrabold text-xs sm:text-sm text-pink-800 uppercase tracking-wider flex items-center gap-1.5">
+                    <i data-lucide="target" class="w-4 h-4 text-pink-600"></i> Chiến lược &amp; quản lý truyền thông
+                  </h6>
+                  <ul class="text-xs sm:text-sm text-gray-700 space-y-2 leading-relaxed list-disc list-inside text-justify">
+                    <li>Nhận brief từ doanh nghiệp, nghiên cứu khách hàng mục tiêu &amp; xây dựng chiến lược truyền thông phù hợp với định hướng.</li>
+                    <li>Quản lý và triển khai content plan, lập lịch đăng bài định kỳ trên đa nền tảng.</li>
+                    <li>Phối hợp các phòng ban nội bộ để đảm bảo tiến độ chiến dịch.</li>
+                  </ul>
+                </div>
+
+                <div class="p-4 sm:p-5 rounded-2xl bg-pink-50/60 border border-pink-100 space-y-2.5">
+                  <h6 class="font-extrabold text-xs sm:text-sm text-pink-800 uppercase tracking-wider flex items-center gap-1.5">
+                    <i data-lucide="video" class="w-4 h-4 text-pink-600"></i> Sản xuất &amp; quản lý nội dung số
+                  </h6>
+                  <ul class="text-xs sm:text-sm text-gray-700 space-y-2 leading-relaxed list-disc list-inside text-justify">
+                    <li>Lên ý tưởng trên đa nền tảng, sản xuất các video giới thiệu dịch vụ và tăng nhận diện thương hiệu.</li>
+                    <li>Kiểm duyệt và quản lý nội dung, đảm bảo hình ảnh và thông điệp nhất quán cho doanh nghiệp.</li>
+                  </ul>
+                </div>
+
+                <div class="p-4 sm:p-5 rounded-2xl bg-pink-50/60 border border-pink-100 space-y-2.5">
+                  <h6 class="font-extrabold text-xs sm:text-sm text-pink-800 uppercase tracking-wider flex items-center gap-1.5">
+                    <i data-lucide="users" class="w-4 h-4 text-pink-600"></i> PR nội bộ
+                  </h6>
+                  <ul class="text-xs sm:text-sm text-gray-700 space-y-2 leading-relaxed list-disc list-inside text-justify">
+                    <li>Tham gia thực hiện các hoạt động truyền thông nội bộ: sự kiện nội bộ, thông tin sự kiện nội bộ công ty,...</li>
+                    <li>Đảm bảo thông tin nội bộ được truyền tải đầy đủ và tích cực đến đội ngũ nhân viên, tăng mức độ gắn kết nội bộ.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Achievement highlight pill (with external link icon button) -->
+              <div class="p-4 rounded-2xl bg-gradient-to-r from-pink-700 via-[#B8005A] to-rose-700 text-white flex items-center justify-between gap-3 text-xs sm:text-sm md:text-base font-bold shadow-md">
+                <div class="flex items-center gap-3">
+                  <i data-lucide="sparkles" class="w-5 h-5 flex-shrink-0 text-amber-300"></i>
+                  <span class="text-justify">Thành tựu nổi bật: Lượt xem trên đa nền tảng MXH đạt 120K (tăng trưởng 175% so với kỳ trước), lượt truy cập và tiếp cận lên đến ≈ 60K.</span>
+                </div>
+                <a href="https://docs.google.com/spreadsheets/d/1bDtYDBPuQ2op-TI8iQnG9RPK2eaXbO3k/edit?usp=sharing&ouid=105355807124233674692&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer" class="p-2 sm:p-2.5 bg-white/20 hover:bg-white text-white hover:text-[#B8005A] rounded-xl flex-shrink-0 transition-all shadow-xs border border-white/20 hover:scale-110 flex items-center justify-center cursor-pointer" title="Xem minh chứng kết quả (Google Sheets) ↗">
+                  <i data-lucide="external-link" class="w-4 h-4"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Job 3: TRƯỜNG ĐẠI HỌC VĂN LANG - Chuỗi Sự Kiện & Dự Án Truyền Thông (DOT: SMALL - PERFECTLY CENTERED) -->
+            <div class="space-y-4 relative pl-4">
+              <span class="absolute -left-[18px] sm:-left-[26px] top-[6px] w-2.5 h-2.5 rounded-full bg-pink-500 ring-4 ring-white"></span>
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+                <h5 class="text-base sm:text-lg md:text-xl font-extrabold text-gray-900 leading-tight">TRƯỜNG ĐẠI HỌC VĂN LANG</h5>
+                <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3.5 py-1 rounded-full w-fit border border-pink-100">Th.02/2024 – Th.12/2024</span>
+              </div>
+              <p class="text-sm sm:text-base font-bold text-[#B8005A]">CTV Sự kiện</p>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1.5">
+                <div class="p-4 sm:p-5 rounded-2xl bg-pink-50/60 border border-pink-100 space-y-2">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="font-extrabold text-xs sm:text-sm text-[#B8005A]">CTV Truyền thông Chương trình Thiện Nguyện gây quỹ: "TRÁI TIM ĐẢO NHỎ"</span>
+                    <span class="text-[11px] sm:text-xs font-bold text-pink-700 bg-white px-2.5 py-0.5 rounded-md flex-shrink-0 border border-pink-100">Th.10/2024 – Th.12/2024</span>
+                  </div>
+                  <ul class="text-xs sm:text-sm text-gray-700 space-y-1.5 list-disc list-inside leading-relaxed text-justify">
+                    <li>Lên ý tưởng, viết kịch bản cho content trên nền tảng social.</li>
+                    <li>Điều phối hoạt động trước – trong – sau sự kiện, đảm bảo tiến độ, chất lượng và trải nghiệm của khách tham dự.</li>
+                  </ul>
+                </div>
+
+                <div class="p-4 sm:p-5 rounded-2xl bg-pink-50/60 border border-pink-100 space-y-2">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="font-extrabold text-xs sm:text-sm text-[#B8005A]">CTV Điều phối Chương trình "The Chronicle Chapter VII"</span>
+                    <span class="text-[11px] sm:text-xs font-bold text-pink-700 bg-white px-2.5 py-0.5 rounded-md flex-shrink-0 border border-pink-100">Th.04/2024</span>
+                  </div>
+                  <ul class="text-xs sm:text-sm text-gray-700 space-y-1.5 list-disc list-inside leading-relaxed text-justify">
+                    <li>Điều phối hoạt động trước – trong – sau sự kiện, đảm bảo tiến độ, chất lượng và trải nghiệm của khách tham dự.</li>
+                  </ul>
+                </div>
+
+                <div class="p-4 sm:p-5 rounded-2xl bg-pink-50/60 border border-pink-100 space-y-2">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="font-extrabold text-xs sm:text-sm text-[#B8005A]">CTV Truyền thông Sự kiện âm nhạc Ready To Love</span>
+                    <span class="text-[11px] sm:text-xs font-bold text-pink-700 bg-white px-2.5 py-0.5 rounded-md flex-shrink-0 border border-pink-100">Th.02/2024 – Th.04/2024</span>
+                  </div>
+                  <ul class="text-xs sm:text-sm text-gray-700 space-y-1.5 list-disc list-inside leading-relaxed text-justify">
+                    <li>Lên ý tưởng, viết kịch bản cho content trên nền tảng social.</li>
+                    <li>Điều phối hoạt động trước – trong – sau sự kiện, đảm bảo tiến độ, chất lượng và trải nghiệm của khách tham dự.</li>
+                  </ul>
+                </div>
+
+                <div class="p-4 sm:p-5 rounded-2xl bg-pink-50/60 border border-pink-100 space-y-2">
+                  <div class="flex items-center justify-between gap-2">
+                    <span class="font-extrabold text-xs sm:text-sm text-[#B8005A]">CTV Truyền thông Talkshow Số Phận</span>
+                    <span class="text-[11px] sm:text-xs font-bold text-pink-700 bg-white px-2.5 py-0.5 rounded-md flex-shrink-0 border border-pink-100">Th.02/2024 – Th.04/2024</span>
+                  </div>
+                  <ul class="text-xs sm:text-sm text-gray-700 space-y-1.5 list-disc list-inside leading-relaxed text-justify">
+                    <li>Lên ý tưởng, viết kịch bản cho content trên nền tảng social.</li>
+                    <li>Điều phối hoạt động trước – trong – sau sự kiện, đảm bảo tiến độ, chất lượng và trải nghiệm của khách tham dự.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & LICENSES SECTION -->
+    <section id="certifications" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-pink-600">MY CERTIFICATIONS</span>
+          <h2 class="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mt-1">Giấy phép &amp; Chứng nhận</h2>
+        </div>
+        <p class="text-xs text-gray-500 max-w-md">Các chứng chỉ chuyên môn và kỹ năng số hoàn thành trong quá trình học tập và nghiên cứu.</p>
+      </div>
+
+      <!-- CHỨNG CHỈ ĐẠT ĐƯỢC (KHUNG TRẮNG VIỀN HỒNG ĐỒNG BỘ) -->
+      <div class="bg-white p-6 sm:p-8 md:p-9 rounded-3xl border-2 border-pink-200 shadow-xl flex flex-col justify-between hover:-translate-y-1 transition-all duration-300">
+        <div>
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 sm:mb-5">
+            <div class="flex items-center gap-3 sm:gap-3.5">
+              <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-pink-50 text-pink-600 flex items-center justify-center border border-pink-100 flex-shrink-0 shadow-xs">
+                <i data-lucide="award" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+              </div>
+              <h3 class="text-base sm:text-lg md:text-xl font-black text-[#B8005A] tracking-normal uppercase">CHỨNG CHỈ ĐẠT ĐƯỢC</h3>
+            </div>
+            <span class="text-xs sm:text-sm font-bold text-pink-700 bg-pink-50 px-3.5 py-1 rounded-full w-fit border border-pink-100 shadow-xs">2025, 2026</span>
+          </div>
+
+          <ul class="space-y-2.5 sm:space-y-3.5 text-xs sm:text-sm md:text-[0.95rem] text-gray-700 leading-relaxed mb-5 sm:mb-6">
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div>
+                <a href="https://www.coursera.org/account/accomplishments/verify/PSCHWMZJNX7L" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                  <span>Foundations of Digital Marketing and E-commerce</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                </a>
+              </div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div>
+                <a href="https://www.coursera.org/account/accomplishments/verify/BJG18WF4SV8E" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                  <span>Create Informative Presentations with Microsoft PowerPoint</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                </a>
+              </div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div>
+                <a href="https://www.coursera.org/account/accomplishments/verify/M8ZAPDD1TGSS" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                  <span>AI Basics and Tools for Creativity</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                </a>
+              </div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div>
+                <a href="https://www.coursera.org/account/accomplishments/verify/XAPXC0WBXSS9" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                  <span>AI for Design and Optimization</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                </a>
+              </div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div>
+                <a href="https://www.coursera.org/account/accomplishments/verify/8RJ25VY6CPDB" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                  <span>AI For Everyone</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                </a>
+              </div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div>
+                <a href="https://coursera.org/share/265b27d0634dba87bc1d741d7f212270" target="_blank" rel="noopener noreferrer" class="font-extrabold text-gray-900 hover:text-[#B8005A] hover:underline underline-offset-2 transition-colors inline-flex items-center gap-1.5 group/link" title="Nhấp để xem chứng chỉ xác thực trên Coursera ↗">
+                  <span>Google Ads for Beginners</span>
+                  <i data-lucide="external-link" class="w-3.5 h-3.5 text-pink-500 opacity-60 group-hover/link:opacity-100 group-hover/link:translate-x-0.5 transition-all"></i>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-wrap gap-2 sm:gap-2.5 pt-4 sm:pt-5 border-t border-pink-100 text-xs sm:text-[13px] font-bold text-pink-700">
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">🌐 Digital Marketing &amp; E-commerce</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">📊 MS PowerPoint</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">🎨 AI Tools for Creativity</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">📢 Google Ads</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE SKILLS & SOFTWARE SECTION -->
+    <section id="skills" class="space-y-6">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-pink-600">Professional skills</span>
+          <h2 class="text-2xl md:text-3xl font-black text-gray-900 tracking-tight mt-1">Năng lực chuyên môn</h2>
+        </div>
+        <p class="text-xs text-gray-500 max-w-md">Từ Pre-production (lập kế hoạch), Production (ghi hình đa góc máy), Post-production (dựng phim, chỉnh màu) đến Digital Publishing (xuất bản truyền thông số).</p>
+      </div>
+
+      <!-- KỸ NĂNG & CÔNG CỤ SẢN XUẤT (KHUNG TRẮNG VIỀN HỒNG) -->
+      <div class="bg-white p-6 sm:p-8 md:p-9 rounded-3xl border-2 border-pink-200 shadow-xl flex flex-col justify-between hover:-translate-y-1 transition-all duration-300">
+        <div>
+          <div class="flex items-center gap-3 sm:gap-3.5 mb-4 sm:mb-5">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-pink-50 text-pink-600 flex items-center justify-center border border-pink-100 flex-shrink-0 shadow-xs">
+              <i data-lucide="sparkles" class="w-4 h-4 sm:w-5 sm:h-5"></i>
+            </div>
+            <h3 class="text-base sm:text-lg md:text-xl font-black text-[#B8005A] tracking-normal uppercase">KỸ NĂNG &amp; CÔNG CỤ HỖ TRỢ</h3>
+          </div>
+          <ul class="space-y-2.5 sm:space-y-3.5 text-xs sm:text-sm md:text-[0.95rem] text-gray-700 leading-relaxed mb-5 sm:mb-6">
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div><strong class="font-extrabold text-gray-900">Nhiếp ảnh | Quay phim | Dựng Phim :</strong> Level cơ bản</div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div><strong class="font-extrabold text-gray-900">Sáng tạo nội dung:</strong> Viết kịch bản, Content.</div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div><strong class="font-extrabold text-gray-900">Sử dụng tốt các công cụ AI:</strong> AI video, AI hình ảnh, AI voice,...</div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div><strong class="font-extrabold text-gray-900">Sử dụng tốt các công cụ hỗ trợ:</strong> Google Workspace, Microsoft 365, Canva, Capcut.</div>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <span class="text-pink-600 font-bold text-base leading-none mt-0.5">•</span>
+              <div><strong class="font-extrabold text-gray-900">Tìm kiếm tốt thông tin:</strong> Có khả năng research, tổng hợp thông tin, tư duy logic.</div>
+            </li>
+          </ul>
+        </div>
+        <div class="flex flex-wrap gap-2 sm:gap-2.5 pt-4 sm:pt-5 border-t border-pink-100 text-xs sm:text-[13px] font-bold text-pink-700">
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">📷 Nhiếp Ảnh &amp; Quay Phim</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">📝 Viết Kịch Bản &amp; Content</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">🤖 AI Video &amp; AI Voice</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">💼 Google Workspace &amp; MS 365</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">🛠️ Canva &amp; CapCut</span>
+          <span class="px-3 py-1.5 bg-pink-50 rounded-lg border border-pink-100 shadow-sm">🔍 Research &amp; Logic</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVIDER BANNER: Slide 3 Replication -->
+    <section class="bg-gradient-to-r from-pink-800 via-[#B8005A] to-pink-900 rounded-3xl p-8 md:p-12 text-white shadow-xl flex items-center justify-between relative overflow-hidden">
+      <div class="w-24 h-24 sm:w-32 sm:h-32">
+        <img src="assets/images/flower.svg" class="w-full h-full object-contain flower-spin-slow" alt="Flower">
+      </div>
+
+      <div class="text-right">
+        <div class="dot-grid-4x2 ml-auto mb-4">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <h2 class="text-2xl sm:text-4xl md:text-5xl font-black tracking-tight uppercase">
+          ABOUT INDIVIDUAL<br>LEARNING PROJECTS
+        </h2>
+        <span class="text-sm sm:text-base md:text-lg text-pink-100 font-bold tracking-wide mt-3 block">Các dự án đã thực hiện • Đồ án môn học</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS & EVIDENCE SHOWCASE SECTION: Projects 1 - 5 -->
+    <section id="projects" class="space-y-8">
+      <!-- Section Header & Filter Controls -->
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-pink-600">My Key Projects</span>
+          <h2 class="text-2xl md:text-4xl font-black text-gray-900 tracking-tight">Các dự án đã thực hiện</h2>
+        </div>
+
+        <!-- Top Search Box for fast lookup -->
+        <div class="w-full md:w-72 bg-white rounded-full px-4 py-2 border border-pink-200 shadow-sm flex items-center gap-2 focus-within:border-pink-500 transition-colors">
+          <i data-lucide="search" class="w-4 h-4 text-pink-500"></i>
+          <input id="hero-search-input" type="text" placeholder="Tìm theo tên dự án, kỹ năng..." class="w-full text-xs outline-none bg-transparent font-medium">
+        </div>
+      </div>
+
+      <!-- Category Filter Pills (All pills fit gracefully on iPad & Desktop) -->
+      <div class="flex items-center gap-1.5 sm:gap-2 overflow-x-auto pb-2 scrollbar-none">
+        <button class="category-filter-pill px-3.5 sm:px-4 md:px-4.5 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-pink-600 text-white shadow-md flex-shrink-0 whitespace-nowrap" data-category="ALL">
+          TẤT CẢ THỂ LOẠI (10)
+        </button>
+        <button class="category-filter-pill px-3 sm:px-3.5 md:px-4 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-white text-gray-700 hover:bg-pink-50 border border-pink-100 flex-shrink-0 whitespace-nowrap" data-category="TVC">
+          🎬 TVC
+        </button>
+        <button class="category-filter-pill px-3 sm:px-3.5 md:px-4 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-white text-gray-700 hover:bg-pink-50 border border-pink-100 flex-shrink-0 whitespace-nowrap" data-category="MV">
+          🎵 MV
+        </button>
+        <button class="category-filter-pill px-3 sm:px-3.5 md:px-4 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-white text-gray-700 hover:bg-pink-50 border border-pink-100 flex-shrink-0 whitespace-nowrap" data-category="TALKSHOW">
+          🎙️ TALKSHOW
+        </button>
+        <button class="category-filter-pill px-3 sm:px-3.5 md:px-4 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-white text-gray-700 hover:bg-pink-50 border border-pink-100 flex-shrink-0 whitespace-nowrap" data-category="DOCUMENTARY">
+          🎥 PHIM TÀI LIỆU
+        </button>
+        <button class="category-filter-pill px-3 sm:px-3.5 md:px-4 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-white text-gray-700 hover:bg-pink-50 border border-pink-100 flex-shrink-0 whitespace-nowrap" data-category="INTERVIEW">
+          🎤 PHỎNG VẤN
+        </button>
+        <button class="category-filter-pill px-3 sm:px-3.5 md:px-4 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-white text-gray-700 hover:bg-pink-50 border border-pink-100 flex-shrink-0 whitespace-nowrap" data-category="PHOTO">
+          📸 ẢNH
+        </button>
+        <button class="category-filter-pill px-3 sm:px-3.5 md:px-4 lg:px-5 py-1.5 sm:py-2 rounded-full font-bold text-[11px] sm:text-xs uppercase transition-all bg-white text-gray-700 hover:bg-pink-50 border border-pink-100 flex-shrink-0 whitespace-nowrap" data-category="STARTUP PROJECT">
+          ✨ KHÁC
+        </button>
+      </div>
+
+      <!-- Projects Grid Container -->
+      <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Rendered via JavaScript from projects-data.js -->
+      </div>
+    </section>
+
+    <!-- CONTACT & LET'S WORK SECTION: Slide 9 Replication -->
+    <!-- CONTACT SECTION: Slide 8 Replication -->
+    <section id="contact">
+      <div class="bg-[#B8005A] rounded-3xl p-6 sm:p-10 md:p-12 text-white shadow-2xl relative overflow-hidden">
+        <div class="absolute -right-10 -bottom-10 w-64 h-64 dot-matrix-white opacity-20 pointer-events-none"></div>
+
+        <div class="w-full flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8 md:gap-12 relative z-10">
+          <div class="w-full lg:max-w-xl text-left">
+            <h2 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight mb-1">Contact Me</h2>
+            <div class="font-script text-5xl sm:text-6xl md:text-7xl text-pink-200 font-bold -rotate-2 mb-8">
+              Let's Work Together!
+            </div>
+
+            <div class="space-y-5 text-sm md:text-base font-semibold">
+              <div class="flex items-center gap-4 group cursor-pointer" onclick="copyContactInfo('0962468650', 'Đã sao chép số điện thoại!')">
+                <div class="w-12 h-12 rounded-2xl bg-white text-[#B8005A] flex items-center justify-center font-bold shadow group-hover:scale-110 transition-transform flex-shrink-0">
+                  <i data-lucide="phone" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-pink-200 block font-normal">Điện thoại / Zalo</span>
+                  <span class="text-white text-lg sm:text-xl font-bold">0962468650</span>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-4 group cursor-pointer" onclick="copyContactInfo('nguyenngaanh6704@gmail.com', 'Đã sao chép email!')">
+                <div class="w-12 h-12 rounded-2xl bg-white text-[#B8005A] flex items-center justify-center font-bold shadow group-hover:scale-110 transition-transform flex-shrink-0">
+                  <i data-lucide="mail" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-pink-200 block font-normal">Hộp thư điện tử</span>
+                  <span class="text-white text-lg sm:text-xl font-bold break-all">nguyenngaanh6704@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="flex items-center gap-4 group">
+                <div class="w-12 h-12 rounded-2xl bg-white text-[#B8005A] flex items-center justify-center font-bold shadow group-hover:scale-110 transition-transform flex-shrink-0">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-pink-200 block font-normal">Địa chỉ</span>
+                  <span class="text-white font-bold">TP. Hồ Chí Minh, Việt Nam</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col items-center justify-center self-center lg:self-center lg:mr-8 space-y-4">
+            <!-- Flower on Top -->
+            <div class="w-36 h-36 sm:w-48 sm:h-48 flex items-center justify-center">
+              <img src="assets/images/flower.svg" class="w-full h-full object-contain flower-spin-slow flower-glow" alt="Flower">
+            </div>
+
+            <!-- Signature sized to match email address prominence -->
+            <div class="select-none text-center pt-1">
+              <span class="font-signature text-3xl sm:text-4xl md:text-[2.6rem] text-pink-100 block whitespace-nowrap drop-shadow-md tracking-wide">
+                Nguyễn Nga Anh
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM FOOTER COPYRIGHT -->
+    <footer class="text-center pt-8 pb-4">
+      <p class="text-xs sm:text-sm font-extrabold tracking-wider sparkle-pink-text select-none drop-shadow-sm">
+        <span class="inline-block animate-pulse">✨</span>
+        <span>© 2026 Nga Anh's Portfolio. All rights reserved.</span>
+        <span class="inline-block animate-pulse">✨</span>
+      </p>
+    </footer>
+
+    <!-- Floating Back to Top Button (Exclusive to Laptop & PC / Screens >= 1025px) -->
+    <button id="back-to-top-btn" 
+            aria-label="Cuộn lên đầu trang" 
+            title="Lên đầu trang"
+            class="fixed bottom-8 right-8 z-40 items-center justify-center gap-2 px-4 py-3 rounded-full bg-[#0F172A]/90 hover:bg-[#0F172A] text-white shadow-2xl backdrop-blur-md border border-white/20 hover:scale-105 hover:shadow-pink-500/20 active:scale-95 transition-all duration-300 opacity-0 pointer-events-none translate-y-4 group cursor-pointer">
+      <span class="w-7 h-7 rounded-full bg-[#B8005A] text-amber-300 flex items-center justify-center shadow-inner group-hover:-translate-y-0.5 transition-transform duration-200">
+        <i data-lucide="arrow-up" class="w-4 h-4 text-amber-300 stroke-[2.5]"></i>
+      </span>
+      <span class="text-xs font-black tracking-wide uppercase text-pink-100 pr-1">Lên đầu trang</span>
+    </button>
+
+  </main>
+
+  <!-- EVIDENCE & PROOF DEEP-DIVE MODAL -->
+  <div id="evidence-modal" class="fixed inset-0 z-[2000] modal-overlay flex items-center justify-center p-3 sm:p-4 md:p-6 hidden">
+    <div id="evidence-modal-content" class="bg-white rounded-3xl shadow-2xl w-full max-w-5xl md:max-w-6xl max-h-[94vh] overflow-y-auto flex flex-col animate-in fade-in zoom-in-95 duration-200 border border-pink-100 relative">
+      <!-- Injected dynamically by evidence-modal.js -->
+    </div>
+  </div>
+
+  <!-- GALLERY LIGHTBOX FULLSCREEN MODAL (Direct child of <body> to guarantee 100% full screen coverage with zero gaps) -->
+  <div id="gallery-lightbox-modal" class="fixed inset-0 z-[99999] bg-black/95 backdrop-blur-md hidden flex flex-col justify-between p-3 sm:p-5 select-none" style="top:0;left:0;right:0;bottom:0;width:100vw;height:100vh;">
+    <!-- Lightbox Top Controls -->
+    <div class="flex items-center justify-between text-white pb-3 border-b border-white/10 w-full px-2 sm:px-4 flex-shrink-0">
+      <div class="flex items-center gap-3">
+        <span class="px-3.5 py-1 bg-[#B8005A] rounded-full text-xs font-bold uppercase tracking-wider shadow-sm" id="lightbox-tag">Tag</span>
+        <span class="text-xs sm:text-sm text-gray-300 font-mono font-bold" id="lightbox-counter">1 / 21</span>
+      </div>
+      <button id="lightbox-close-btn" class="p-2.5 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all cursor-pointer hover:scale-110 active:scale-95" title="Đóng trình xem ảnh (Esc)">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+    </div>
+
+    <!-- Lightbox Main Image & Navigation Arrows (Expanded Sizing for High Impact) -->
+    <div id="lightbox-main-img-container" class="relative flex-1 flex items-center justify-center my-2 overflow-hidden w-full h-full">
+      <button id="lightbox-prev-btn" class="absolute left-2 sm:left-6 z-10 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-black/60 hover:bg-white/30 text-white flex items-center justify-center transition-all cursor-pointer backdrop-blur-md hover:scale-110 active:scale-95 border border-white/15 shadow-xl" title="Ảnh trước (←)">
+        <i data-lucide="chevron-left" class="w-7 h-7"></i>
+      </button>
+
+      <img id="lightbox-main-img" src="" class="max-h-[88vh] sm:max-h-[90vh] max-w-[96vw] sm:max-w-[94vw] object-contain rounded-2xl shadow-2xl transition-all duration-300 select-none" alt="Full Image">
+
+      <button id="lightbox-next-btn" class="absolute right-2 sm:right-6 z-10 w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-black/60 hover:bg-white/30 text-white flex items-center justify-center transition-all cursor-pointer backdrop-blur-md hover:scale-110 active:scale-95 border border-white/15 shadow-xl" title="Ảnh tiếp theo (→)">
+        <i data-lucide="chevron-right" class="w-7 h-7"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- SLIDE DECK FULLSCREEN PRESENTATION VIEWPORT -->
+  <div id="deck-viewport" class="deck-viewport hidden">
+    <!-- Top Deck Bar -->
+    <div class="w-full max-w-[1200px] flex items-center justify-between text-white mb-3 px-2">
+      <div class="flex items-center gap-3">
+        <span class="font-bold text-sm tracking-tight flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-pink-500"></span> Presentation Deck Mode
+        </span>
+        <span id="deck-slide-counter" class="px-3 py-1 bg-white/15 rounded-full text-xs font-mono font-bold">1 / 9</span>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button id="deck-close-btn" class="px-4 py-1.5 bg-white/10 hover:bg-white/25 rounded-full text-xs font-bold transition-all flex items-center gap-1.5">
+          <i data-lucide="x" class="w-4 h-4"></i> Đóng / Thoát Slide
+        </button>
+      </div>
+    </div>
+
+    <!-- Slide Container Frame -->
+    <div class="deck-slide-container">
+      <div id="deck-slides-wrapper" class="w-full h-full">
+        <!-- Injected dynamically by deck-mode.js -->
+      </div>
+    </div>
+
+    <!-- Bottom Deck Controls & Progress -->
+    <div class="w-full max-w-[1200px] mt-4 flex items-center justify-between text-white px-2">
+      <button id="deck-prev-btn" class="px-5 py-2 bg-white/10 hover:bg-white/20 rounded-xl text-xs font-bold flex items-center gap-2 transition-all">
+        <i data-lucide="chevron-left" class="w-4 h-4"></i> Slide Trước
+      </button>
+
+      <!-- Progress Line -->
+      <div class="w-48 sm:w-80 h-1.5 bg-white/20 rounded-full overflow-hidden">
+        <div id="deck-progress-bar" class="h-full bg-pink-500 transition-all duration-300 w-1/9"></div>
+      </div>
+
+      <button id="deck-next-btn" class="px-5 py-2 bg-pink-600 hover:bg-pink-500 rounded-xl text-xs font-bold flex items-center gap-2 transition-all shadow-lg">
+        Slide Tiếp <i data-lucide="chevron-right" class="w-4 h-4"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION POPUP (Centered at bottom) -->
+  <div id="toast-notification" class="fixed bottom-10 left-1/2 -translate-x-1/2 z-[99999] bg-gray-900/95 backdrop-blur-md text-white px-6 py-3.5 rounded-2xl shadow-2xl flex items-center gap-3 border border-gray-700 transition-all duration-300 transform translate-y-20 opacity-0 pointer-events-none text-center max-w-[92vw] sm:max-w-md">
+    <i data-lucide="check-circle" class="w-5 h-5 text-pink-400 flex-shrink-0"></i>
+    <span id="toast-message" class="text-xs sm:text-sm font-bold leading-tight">Thông báo hệ thống</span>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/projects-data.js?v=17.9"></script>
+  <script src="js/video-player.js?v=17.9"></script>
+  <script src="js/evidence-modal.js?v=17.9"></script>
+  <script src="js/deck-mode.js?v=17.9"></script>
+  <script src="js/app.js?v=17.9"></script>
+</body>
+</html>
