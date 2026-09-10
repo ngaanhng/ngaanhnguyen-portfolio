@@ -90,8 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
 
         <!-- Card Body Content -->
-        <div class="p-5 sm:p-6 flex-1 flex flex-col justify-between ${p.isGallery ? 'min-h-[300px] sm:min-h-[320px]' : ''}">
-          <div class="flex-1 flex flex-col">
+        <div class="p-5 sm:p-6 flex-1 flex flex-col justify-between">
+          <div>
             <div class="flex items-start justify-between gap-2 text-xs text-gray-500 font-medium mb-2.5 min-h-[38px] sm:min-h-[40px]">
               <span class="text-pink-700 font-bold flex items-start gap-1.5 leading-snug flex-1 min-w-0">
                 <i data-lucide="award" class="w-3.5 h-3.5 flex-shrink-0 text-pink-600 mt-0.5"></i>
@@ -108,14 +108,9 @@ document.addEventListener('DOMContentLoaded', () => {
               ${p.shortDesc}
             </p>
 
-            <div class="space-y-1 text-xs ${p.isGallery ? 'mb-2 min-h-0 py-2' : 'mb-3 min-h-[50px]'} bg-pink-50/50 p-2.5 rounded-xl border border-pink-100 flex items-center">
+            <div class="space-y-1 text-xs mb-3 bg-pink-50/50 p-2.5 rounded-xl border border-pink-100 min-h-[50px] flex items-center">
               <p class="leading-snug"><strong class="text-gray-700">Vai trò đảm nhiệm:</strong> <span class="text-[#B8005A] font-bold">${p.role}</span></p>
             </div>
-
-            ${p.isGallery ? `
-              <!-- Empty spacer below role to match height with other cards -->
-              <div class="flex-1 min-h-[65px] sm:min-h-[80px]"></div>
-            ` : ''}
           </div>
 
           <div>

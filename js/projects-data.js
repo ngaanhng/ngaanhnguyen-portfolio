@@ -709,7 +709,7 @@ const PROJECTS_DATA = [
     course: "Personal photography project",
     year: "2025, 2026",
     client: "VLU Media Lab / Sóng News / ADENZ Travel",
-    software: [],
+    software: ["Compact digital camera"],
     colorHex: "#db2777",
     accentBg: "from-pink-600 to-rose-900",
     badgeColor: "bg-pink-500/20 text-pink-300 border-pink-500/30",
